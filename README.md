@@ -3,5 +3,5 @@ __Kelompok 1__
 ### TODO
 * ~~Button & Links~~
 * Banner 
-* Link Navigasi
+* ~~Link Navigasi~~
 * ~~Halaman tiap Jurusan~~
