@@ -4,4 +4,4 @@ __Kelompok 1__
 * ~~Button & Links~~
 * Banner 
 * Link Navigasi
-* ~~Halaman tiap Jurusan
+* ~~Halaman tiap Jurusan~~
