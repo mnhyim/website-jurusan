@@ -1,6 +1,5 @@
 # Website Jurusan
-## Kelompok 1 
-
+__Kelompok 1__ 
 ### TODO
 * Button & Links
 * Banner 
