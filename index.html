@@ -8,30 +8,54 @@
   <link href='./assets/img/icon.png' rel='shortcut icon'>
 </head>
 
+<style>
+  .container {
+    display: grid;
+
+
+  }
+
+  header {
+    border: black 1em;
+  }
+
+  .right {
+    float: right;
+    padding: 1rem;
+    color: blue;
+    border-left: 0.8rem black;
+    align-items: center;
+  }
+
+  .right:hover {
+    background-color: grey;
+  }
+
+  .vidio {
+    align-content: center;
+    width:; 
+    height:;
+  }
+</style>
+
 <body>
-  <main>
+
+  <main class="container">
 
     <header align="left">
       <img src="./assets/img/home.png" alt="Institut Teknologi Kalimantan" title="Logo ITK" width="213px" height="57px">
-      <h1>Website Jurusan ITK</h1>
+      <a class="right" href="#">Jurusan</a>
+      <a class="right" href="#">About</a>
+      <a class="right" href="#">Berita</a>
+
+
     </header>
 
 
-    <nav>
-
-      <ul>
-        <li>
-          <a href="./index.html">Home</a>
-        </li>
-        <li>
-          <a href="./assets/pages/about.html">About</a>
-        </li>
-      </ul>
-    </nav>
 
 
     <marquee direction="left">Selamat datang di Website Jurusan ITK</marquee>
-    <video width="320" height="240" controls autoplay>
+    <video class="vidio"  controls autoplay>
       <source src="./assets/video/open-house.mkv" type="video/mp4">
     </video>
 
@@ -48,33 +72,19 @@
     </section>
 
 
-    <section align="center">
-      <button>
-        <a href="./assets/pages/jstpk.html">JSTPK</a>
-      </button>
-      <button>
-        <a href="./assets/pages/jikl.html">JIKL</a>
-      </button>
-      <button>
-        <a href="./assets/pages/jtip.html">JTIP</a>
-      </button>
-      <button>
-        <a href="./assets/pages/jmti.html">JMTI</a>
-      </button>
-      <button>
-        <a href="./assets/pages/jtsp.html">JTSP</a>
-      </button>
-    </section>
+ 
 
 
     <footer align="center">
-
-      <p>
+      <button>
         <a href="https://twitter.com/search?q=institut%20teknologi%20kalimantan">Twitter</a>
+      </button>
+      <button>
         <a href="https://www.youtube.com/channel/UCViEeXYt6zxQ7nd1xqw6ZpQ">Youtube</a>
+      </button>
+      <button>
         <a href="https://www.instagram.com/itk_official/">Instagram</a>
-      </p>
-
+      </button>
     </footer>
   </main>
 </body>
