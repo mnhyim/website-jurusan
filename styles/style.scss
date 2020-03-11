@@ -1,0 +1,38 @@
+@mixin flextengah($direction,$tempat) {
+   
+    display: flex;
+    flex-direction: $direction;
+    align-items: $tempat;
+    padding: 1vw;
+    position: relative;
+     
+}
+
+header{
+    @include flextengah(row,center )
+    nav {
+        align-items: right;
+        float: right;
+        
+        :hover{
+            color: red;
+            background-color: seagreen;
+        }
+        a {
+            text-decoration: none;
+            
+        }
+        img {
+            align-content: left;
+        }
+       
+    }
+    
+}
+
+
+
+footer{
+    @include flextengah(row, center )
+}
+
