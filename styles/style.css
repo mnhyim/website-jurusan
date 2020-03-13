@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,32 +11,38 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5vw;
   position: relative;
 }
 
-header nav {
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
-  float: right;
-}
-
 header nav :hover {
-  color: red;
-  background-color: seagreen;
+  color: #f7e1c5;
+  background-color: #0067ac;
+  border-radius: 6px;
 }
 
 header nav a {
   text-decoration: none;
+  color: #504b4b;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
 }
 
-header nav img {
-  -ms-flex-line-pack: left;
-      align-content: left;
+.container .slideb {
+  background-image: url("../assets/img/wpp.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: auto;
+  text-align: center;
+}
+
+.container .slideb img {
+  max-height: 25vh;
+  padding-top: 10vh;
 }
 
 footer {
@@ -42,10 +53,16 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0.5vw;
   position: relative;
+  padding: 1em 1em;
+  background-color: #e4dede;
+  border-radius: 10;
+}
+
+footer .content {
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */

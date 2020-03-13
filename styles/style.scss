@@ -1,38 +1,68 @@
-@mixin flextengah($direction,$tempat) {
-   
+@mixin flextengah($direction, $content) {
+
     display: flex;
     flex-direction: $direction;
-    align-items: $tempat;
-    padding: 1vw;
+    justify-content: $content;
+    padding: 0.5vw;
     position: relative;
-     
+
 }
 
-header{
-    @include flextengah(row,center )
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    @include flextengah(row, space-between);
+
     nav {
-        align-items: right;
-        float: right;
-        
-        :hover{
-            color: red;
-            background-color: seagreen;
+
+
+        :hover {
+            color: rgb(247, 225, 197);
+            background-color: rgb(0, 103, 172);
+            border-radius: 6px;
         }
+
         a {
             text-decoration: none;
-            
+            color: rgb(80, 75, 75);
+            padding: 14px 25px;
+            text-align: center;
+            display: inline-block;
         }
-        img {
-            align-content: left;
-        }
+
+
+    }
+
+}
+
+.container {
+    .slideb{
+        background-image: url("../assets/img/wpp.jpg");
+        width: 100%;
+        height: 400px;
+        background-size: auto;
+        text-align: center;
        
+        img{
+            max-height: 25vh;
+            padding-top: 10vh;
+        }
     }
     
 }
 
+footer {
+    @include flextengah(row, space-around);
+    padding: 1em 1em;
+    background-color: rgb(228, 222, 222);
+    border-radius: 10;
+    .content {
+        background-color: rgb(255, 255, 255);
+    }
 
-
-footer{
-    @include flextengah(row, center )
 }
-
