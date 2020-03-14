@@ -6,6 +6,7 @@
 
 body {
   font: 16px "Ubuntu", sans-serif;
+  width: 100vw;
 }
 
 header {
@@ -17,26 +18,33 @@ header {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
   padding: 0.5rem;
 }
-header nav a {
+header .navbar a {
   color: #111111;
   display: inline-block;
   font-size: 1em;
   text-decoration: none;
   text-align: center;
   padding: 19px 30px;
+  transition: 0.4s background-color, 0.3s color;
 }
-header nav a:hover {
+header .navbar a:hover {
   color: #fafafa;
   background-color: #005CAF;
   border-radius: 4px;
 }
-header nav a:active {
+header .navbar a:active {
   background-color: #004786;
+}
+header img {
+  margin: 0 0 0 8px;
+  width: 213px;
+  height: 57px;
+  cursor: pointer;
 }
 
 main .cover {
   text-align: center;
-  background: url("../assets/img/bgcover.JPG") #005CAF no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/bgcover.JPG") #005CAF no-repeat center;
   background-size: cover;
   min-height: 50vh;
   padding: 25vh 0;
@@ -52,6 +60,36 @@ main .cover h1 {
   color: #fafafa;
   margin-top: 16px;
   padding: 0.5em;
+  font: "Kanit", cursive;
+}
+main .desc-p {
+  background-color: #005CAF;
+  color: #fafafa;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  text-align: justify;
+}
+main .card-container {
+  background-color: #F9BF45;
+  color: #005CAF;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 8px 0;
+}
+main .card-container .card-jurusan {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+main .card-container img {
+  width: 18vw;
+  border-radius: 8px 8px 0 0;
+}
+main .card-container h1 {
+  padding: 8px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

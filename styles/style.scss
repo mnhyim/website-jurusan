@@ -9,12 +9,20 @@
   -moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
 }
+
+@mixin boxShadow {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+
 // Colors
 $primary-color: #005CAF;
 $secondary-color: #F9BF45;
 $color-white: #fafafa;
-$color-grey: #cacaca;
+$color-grey: #dfdfdf;
 $color-black: #111111;
+
 
 // CSS RESET
 *{
@@ -25,14 +33,16 @@ $color-black: #111111;
 
 // CSS
 body {
-  font: 16px 'Ubuntu', sans-serif;;
+  font: 16px 'Ubuntu', sans-serif;
+  width: 100vw;
 }
+
 
 header{
   @include flextengah(row, space-between);
   @include shadowBottom();
   padding: 0.5rem;
-  nav{
+  .navbar{
     a{
       color: $color-black;
       display: inline-block;
@@ -40,6 +50,7 @@ header{
       text-decoration: none;
       text-align: center;
       padding: 19px 30px;
+      transition: 0.4s background-color, 0.3s color;
     }
     a:hover{
       color: $color-white;
@@ -50,12 +61,19 @@ header{
       background-color: darken($color: $primary-color, $amount: 8);
     }
   }
+  img{
+    margin: 0 0 0 8px;
+    width: 213px;
+    height: 57px;
+    cursor: pointer;
+  }
 }
+
 
 main{
   .cover{
     text-align: center;
-    background: url('../assets/img/bgcover.JPG') $primary-color no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../assets/img/bgcover.JPG') $primary-color no-repeat center;
     background-size: cover;
     min-height: 50vh;
     padding: 25vh 0;
@@ -70,7 +88,72 @@ main{
       color: $color-white;
       margin-top: 16px;
       padding: 0.5em;
+      font: 'Kanit', cursive;
     }
   }
+  .desc-p{
+    background-color: $primary-color;
+    color: $color-white;
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    text-align: justify;
+  }
+  .card-container{
+    background-color: $secondary-color;
+    color: $primary-color;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 8px 0;
+    .card-jurusan{
+      @include boxShadow();
+      background-color: $color-white;
+      border-radius: 8px;
+    }
+    img{
+      width: 18vw;
+      border-radius: 8px 8px 0 0;
+    }
+    h1{
+      padding: 8px 0;
+    }
+    // .card-jurusan{
+    //   background: url(../assets/img/logo_jmti.png) no-repeat center ;
+    //   background-size: cover;
+    //   height: 25vh;
+    //   text-align: center;
+    //   width: 25vh;
+    //   h1{
+    //     margin-top: 16px;
+    //   }
+    // }
+  }
 }
+
+
+// footer{
+//   @include flextengah(row, space-evenly);
+//   background-color: $color-grey;
+//   .footer-content{
+//     background-color: $color-white;
+//     border-radius: 4px;
+//     padding: 1em;
+//     margin: 0.8em;
+//     width: 33%;
+//     h2{
+//       margin: 0 0 16px 0;
+//       text-align: center;
+//     }
+//     a,p{
+//       text-decoration: none;
+//       color: $color-black;
+//     }
+//     a:hover{
+//       text-decoration: underline;
+//     }
+//     ul{
+//       list-style: none;
+//     }
+//   }
+// }
 

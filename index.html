@@ -6,19 +6,25 @@
   <title>ITK</title>
   <link href='./assets/img/logo_itk.png' rel='shortcut icon'>
   <link rel="stylesheet" href="./styles/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
   <header>
-    <img src="./assets/img/home.png" alt="Institut Teknologi Kalimantan" title="Logo ITK" width="213px" height="57px">
-    <nav>
+    <a href="./index.html">
+      <img src="./assets/img/home.png" alt="Institut Teknologi Kalimantan" title="Logo ITK">
+    </a>
+    <div class="navbar-toggle">
+      <i class="fas fa-motorcycle"></i>
+    </div>
+    <nav class="navbar">
       <a href="./assets/pages/berita.html">Berita</a>
       <a href="./assets/pages/about.html">About</a>
       <a href="./assets/pages/jurusan.html">Jurusan</a>
     </nav>
   </header>
 
-  <main class="container">
+  <main>
     <!-- <marquee direction="left">Selamat datang di Website Jurusan ITK</marquee> -->
     <div class="cover">
       <div class="cover-bg">
@@ -26,22 +32,42 @@
         <h1>Institut Teknologi Kalimantan</h1>
       </div>
     </div>
-    <section>
+    <div>
       <p class="desc-p">
         <strong>Institut Teknologi Kalimantan</strong> merupakan perguruan tinggi yang fokus dalam bidang teknologi
         untuk menunjang kebutuhan dunia industri. Melalui berbagai macam program pendidikan pada ITK ini, diharapkan
-        dapat
-        meningkatkan pengetahuan dan keterampilan SDM (mahasiswa yang mengambil studi di ITK) yang akan berdampak
+        dapat meningkatkan pengetahuan dan keterampilan SDM (mahasiswa yang mengambil studi di ITK) yang akan berdampak
         terhadap peningkatan penguasaan teknologidan peningkatan produktivitas modal. Selanjutnya peningkatan
-        produktivitas modal
-        tersebut mampu memunculkan industri-industri baru sehingga menambah jumlah industri yang ada di Kalimantan.
+        produktivitas modaltersebut mampu memunculkan industri-industri baru sehingga menambah jumlah industri yang ada di Kalimantan.
       </p>
+    </div>
+    <section class="card-container">
+      <div class="card-jurusan">
+        <img src="./assets/img/logo_jmti.png" alt="JMTI">
+        <h1>JMTI</h1>
+      </div>
+      <div class="card-jurusan">
+        <img src="./assets/img/logo_jtip.png" alt="JTIP">
+        <h1>JTIP</h1>
+      </div>
+      <div class="card-jurusan">
+        <img src="./assets/img/logo_jstpk.png" alt="JSTPK">
+        <h1>JSTPK</h1>
+      </div>
+      <div class="card-jurusan">
+        <img src="./assets/img/logo_jikl.png" alt="JIKL">
+        <h1>JIKL</h1>
+      </div>
+      <div class="card-jurusan">
+        <img src="./assets/img/logo_jmti.png" alt="LUPA">
+        <h1>LUPA</h1>
+      </div>
     </section>
   </main>
 
-  <footer>
+  <!-- <footer>
     <div class="footer-content">
-      <h3>Social Media : </h3>
+      <h2>Social Media : </h3>
       <ul>
         <li>
           <a href="https://twitter.com/search?q=institut%20teknologi%20kalimantan">Twitter</a>
@@ -55,7 +81,7 @@
       </ul>
     </div>
     <div class="footer-content">
-      <h3>Layanan : </h3>
+      <h2>Layanan : </h3>
       <ul>
         <li>
           <a href="http://sikantan.itk.ac.id/">SIKANTAN</a>
@@ -69,7 +95,7 @@
       </ul>
     </div>
     <div class="footer-content">
-      <h3>Contact : </h3>
+      <h2>Contact : </h3>
       <ul>
         <li>
           Jl. Soekarno-Hatta Km. 15, Karang Joang, Balikpapan, Kalimantan Timur, 76127
@@ -85,6 +111,6 @@
         </li>
       </ul>
     </div>
-  </footer>
+  </footer> -->
 </body>
 </html>
