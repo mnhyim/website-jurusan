@@ -59,11 +59,18 @@ footer {
   padding: 0.5vw;
   position: relative;
   padding: 1em 1em;
-  background-color: #e4dede;
-  border-radius: 10;
+  background-color: #e0e0e0;
 }
-footer .content {
-  background-color: white;
+footer .footer-content {
+  margin: 0.5em;
+  width: 32vw;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  background-color: #fafafa;
+  padding: 1em;
+}
+footer .footer-content h3 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
