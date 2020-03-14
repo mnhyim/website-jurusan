@@ -2,80 +2,75 @@
   display: flex;
   flex-direction: $direction;
   justify-content: $content;
-  padding: 0.5vw;
-  position: relative;
-}
-@mixin shadowBottom {
-  -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
 }
 
-body {
+@mixin shadowBottom {
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+// Colors
+$primary-color: #005CAF;
+$secondary-color: #F9BF45;
+$color-white: #fafafa;
+$color-grey: #cacaca;
+$color-black: #111111;
+
+// CSS RESET
+*{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+// CSS
+body {
   font: 16px 'Ubuntu', sans-serif;;
 }
 
-header {
+header{
   @include flextengah(row, space-between);
   @include shadowBottom();
-  nav {
-    :hover {
-      color: rgb(247, 225, 197);
-      background-color: rgb(0, 103, 172);
-      border-radius: 6px;
-    }
-    a {
+  padding: 0.5rem;
+  nav{
+    a{
+      color: $color-black;
+      display: inline-block;
+      font-size: 1em;
       text-decoration: none;
-      font-size: 1rem;
-      padding: 19px 30px;
-      color: rgb(80, 75, 75);
       text-align: center;
+      padding: 19px 30px;
+    }
+    a:hover{
+      color: $color-white;
+      background-color: $primary-color;
+      border-radius: 4px;
+    }
+    a:active{
+      background-color: darken($color: $primary-color, $amount: 8);
+    }
+  }
+}
+
+main{
+  .cover{
+    text-align: center;
+    background: url('../assets/img/bgcover.JPG') $primary-color no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 25vh 0;
+    .cover-bg{
       display: inline-block;
     }
-  }
-}
-
-.container {
-  .slidebg{
-    background-image: url("../assets/img/wpp.jpg");
-    width: 100%;
-    height: 400px;
-    background-size: auto;
-    text-align: center;
     img{
-      max-height: 25vh;
-      padding-top: 10vh;
-      transition: 0.8s transform;
-    }
-    img:hover{
-      transform: scale(1.2);
+      width: 150px;
     }
     h1{
-      color: #fafafa;
+      background-color: #00000050;
+      color: $color-white;
+      margin-top: 16px;
+      padding: 0.5em;
     }
   }
 }
 
-.desc-p{
-  font-size: 0.9rem;
-  padding: 1rem;
-}
-
-footer {
-  @include flextengah(row, space-around);
-  padding: 1em 1em;
-  background-color: #e0e0e0;
-  .footer-content {
-    margin: 0.5em;
-    width: 32vw;
-    font-size: 0.8rem;
-    border-radius: 4px;
-    background-color: #fafafa;
-    padding: 1em;
-    h3{
-      text-align: center;
-    }
-  }
-}

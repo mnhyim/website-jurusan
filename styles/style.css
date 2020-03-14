@@ -1,6 +1,10 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
   font: 16px "Ubuntu", sans-serif;
 }
 
@@ -8,69 +12,46 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5vw;
-  position: relative;
-  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
-}
-header nav :hover {
-  color: #f7e1c5;
-  background-color: #0067ac;
-  border-radius: 6px;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
 }
 header nav a {
+  color: #111111;
+  display: inline-block;
+  font-size: 1em;
   text-decoration: none;
-  font-size: 1rem;
-  padding: 19px 30px;
-  color: #504b4b;
   text-align: center;
+  padding: 19px 30px;
+}
+header nav a:hover {
+  color: #fafafa;
+  background-color: #005CAF;
+  border-radius: 4px;
+}
+header nav a:active {
+  background-color: #004786;
+}
+
+main .cover {
+  text-align: center;
+  background: url("../assets/img/bgcover.JPG") #005CAF no-repeat center;
+  background-size: cover;
+  min-height: 50vh;
+  padding: 25vh 0;
+}
+main .cover .cover-bg {
   display: inline-block;
 }
-
-.container .slidebg {
-  background-image: url("../assets/img/wpp.jpg");
-  width: 100%;
-  height: 400px;
-  background-size: auto;
-  text-align: center;
+main .cover img {
+  width: 150px;
 }
-.container .slidebg img {
-  max-height: 25vh;
-  padding-top: 10vh;
-  transition: 0.8s transform;
-}
-.container .slidebg img:hover {
-  transform: scale(1.2);
-}
-.container .slidebg h1 {
+main .cover h1 {
+  background-color: #00000050;
   color: #fafafa;
-}
-
-.desc-p {
-  font-size: 0.9rem;
-  padding: 1rem;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0.5vw;
-  position: relative;
-  padding: 1em 1em;
-  background-color: #e0e0e0;
-}
-footer .footer-content {
-  margin: 0.5em;
-  width: 32vw;
-  font-size: 0.8rem;
-  border-radius: 4px;
-  background-color: #fafafa;
-  padding: 1em;
-}
-footer .footer-content h3 {
-  text-align: center;
+  margin-top: 16px;
+  padding: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
