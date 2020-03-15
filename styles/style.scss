@@ -1,4 +1,4 @@
-@mixin flextengah($direction, $content) {
+@mixin flex($direction, $content) {
   display: flex;
   flex-direction: $direction;
   justify-content: $content;
@@ -18,6 +18,7 @@
 
 // Colors
 $primary-color: #005CAF;
+$primary-color-darker: darken($color: $primary-color, $amount: 8);
 $secondary-color: #F9BF45;
 $color-white: #fafafa;
 $color-grey: #dfdfdf;
@@ -39,33 +40,36 @@ body {
 
 
 header{
-  @include flextengah(row, space-between);
+  @include flex(row, space-between);
   @include shadowBottom();
   padding: 0.5rem;
   .navbar{
+    .navbar-toggle{
+      display: none;
+    }
     a{
+      border-radius: 4px;
       color: $color-black;
       display: inline-block;
       font-size: 1em;
+      padding: 19px 30px;
       text-decoration: none;
       text-align: center;
-      padding: 19px 30px;
       transition: 0.4s background-color, 0.3s color;
+      &:hover{
+        color: $color-white;
+        background-color: $primary-color;
+      }
+      &:active{
+        background-color: $primary-color-darker;
+      }
     }
-    a:hover{
-      color: $color-white;
-      background-color: $primary-color;
-      border-radius: 4px;
+    img{
+      margin: 0 0 0 8px;
+      width: 213px;
+      height: 57px;
+      cursor: pointer;
     }
-    a:active{
-      background-color: darken($color: $primary-color, $amount: 8);
-    }
-  }
-  img{
-    margin: 0 0 0 8px;
-    width: 213px;
-    height: 57px;
-    cursor: pointer;
   }
 }
 
@@ -105,55 +109,58 @@ main{
     justify-content: space-evenly;
     text-align: center;
     padding: 8px 0;
+    }
     .card-jurusan{
       @include boxShadow();
       background-color: $color-white;
       border-radius: 8px;
+      transition: 0.3s transform;
+      max-width: 15vw;
+      margin: 0 4px;
+      &:hover{
+        transform: scale(1.05)
+      }
+      img{
+        width: 15vw;
+        border-radius: 8px 8px 0 0;
+      }
+      h1{
+        padding: 4px 0;
+        font-size: calc(16px + 0.5vw);
+      }
     }
-    img{
-      width: 18vw;
-      border-radius: 8px 8px 0 0;
+}
+// MOBILE
+@media (max-width: 500px) {
+  header{
+    @include flex(row, center);
+    flex-wrap: wrap;
+    padding: unset;
+    a img{
+      margin: 18px auto;
     }
-    h1{
-      padding: 8px 0;
+    .navbar{
+      background-color: $primary-color;
+      margin: 4px 0 0 0;
+      @include flex(row, stretch);
+      a{
+        color:$color-white;
+        width: 33.33vw;
+      }
     }
-    // .card-jurusan{
-    //   background: url(../assets/img/logo_jmti.png) no-repeat center ;
-    //   background-size: cover;
-    //   height: 25vh;
-    //   text-align: center;
-    //   width: 25vh;
-    //   h1{
-    //     margin-top: 16px;
-    //   }
-    // }
+  }
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: unset;
+    .card-jurusan{
+      min-width: 40vw;
+      margin: 8px auto;
+      img{
+        min-width: 40vw;
+      }
+    }
   }
 }
 
-
-// footer{
-//   @include flextengah(row, space-evenly);
-//   background-color: $color-grey;
-//   .footer-content{
-//     background-color: $color-white;
-//     border-radius: 4px;
-//     padding: 1em;
-//     margin: 0.8em;
-//     width: 33%;
-//     h2{
-//       margin: 0 0 16px 0;
-//       text-align: center;
-//     }
-//     a,p{
-//       text-decoration: none;
-//       color: $color-black;
-//     }
-//     a:hover{
-//       text-decoration: underline;
-//     }
-//     ul{
-//       list-style: none;
-//     }
-//   }
-// }
 

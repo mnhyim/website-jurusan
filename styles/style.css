@@ -18,24 +18,27 @@ header {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
   padding: 0.5rem;
 }
+header .navbar .navbar-toggle {
+  display: none;
+}
 header .navbar a {
+  border-radius: 4px;
   color: #111111;
   display: inline-block;
   font-size: 1em;
+  padding: 19px 30px;
   text-decoration: none;
   text-align: center;
-  padding: 19px 30px;
   transition: 0.4s background-color, 0.3s color;
 }
 header .navbar a:hover {
   color: #fafafa;
   background-color: #005CAF;
-  border-radius: 4px;
 }
 header .navbar a:active {
   background-color: #004786;
 }
-header img {
+header .navbar img {
   margin: 0 0 0 8px;
   width: 213px;
   height: 57px;
@@ -77,19 +80,63 @@ main .card-container {
   text-align: center;
   padding: 8px 0;
 }
-main .card-container .card-jurusan {
+main .card-jurusan {
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
   background-color: #fafafa;
   border-radius: 8px;
+  transition: 0.3s transform;
+  max-width: 15vw;
+  margin: 0 4px;
 }
-main .card-container img {
-  width: 18vw;
+main .card-jurusan:hover {
+  transform: scale(1.05);
+}
+main .card-jurusan img {
+  width: 15vw;
   border-radius: 8px 8px 0 0;
 }
-main .card-container h1 {
-  padding: 8px 0;
+main .card-jurusan h1 {
+  padding: 4px 0;
+  font-size: calc(16px + 0.5vw);
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: unset;
+  }
+  header a img {
+    margin: 18px auto;
+  }
+  header .navbar {
+    background-color: #005CAF;
+    margin: 4px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+  }
+  header .navbar a {
+    color: #fafafa;
+    width: 33.33vw;
+  }
+
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+  .card-container .card-jurusan {
+    min-width: 40vw;
+    margin: 8px auto;
+  }
+  .card-container .card-jurusan img {
+    min-width: 40vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
