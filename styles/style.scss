@@ -38,7 +38,6 @@ body {
   font: 16px 'Ubuntu', sans-serif;
 }
 
-
 header{
   @include flex(row, space-between);
   @include shadowBottom();
@@ -72,8 +71,37 @@ header{
     }
   }
 }
- 
-main{
+
+footer{
+  @include flex(row, space-evenly);
+  background-color: darken($color: $primary-color-darker, $amount: 10);
+  padding: 16px 8px 8px 8px;
+  font-size: 0.9rem;
+  .footer-content{
+    background-color: darken($color: $primary-color-darker, $amount: 2);
+    color: darken($color: $color-white, $amount: 5);
+    min-width: 30vw;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 4px;
+    ul li{
+      list-style-type: none;
+      color: darken($color: $color-white, $amount: 25);
+    }
+    h2{
+      margin: 0 0 16px 0;
+      text-align: center;
+    }
+    a{
+      color: darken($color: $color-white, $amount: 25);
+      &:hover{
+        color: darken($color: $color-white, $amount: 5);
+      }
+    }
+  }
+}
+
+.home-container{
   .cover{
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../assets/img/bgcover.JPG') $primary-color no-repeat center;
@@ -109,7 +137,6 @@ main{
     justify-content: space-evenly;
     text-align: center;
     padding: 16px 0;
-    }
     .card-jurusan{
       @include boxShadow();
       background-color: $color-white;
@@ -128,36 +155,29 @@ main{
         font-size: calc(16px + 0.5vw);
       }
     }
+  }
 }
 
-footer{
-  @include flex(row, space-evenly);
-  background-color: darken($color: $primary-color-darker, $amount: 10);
-  padding: 16px 8px 8px 8px;
-  font-size: 0.9rem;
-  .footer-content{
-    background-color: darken($color: $primary-color-darker, $amount: 2);
-    color: darken($color: $color-white, $amount: 5);
-    min-width: 30vw;
-    padding: 16px;
-    margin: 8px;
-    border-radius: 4px;
-    ul li{
-      list-style-type: none;
-      color: darken($color: $color-white, $amount: 25);
-    }
-    h2{
-      margin: 0 0 16px 0;
-      text-align: center;
-    }
-    a{
-      color: darken($color: $color-white, $amount: 25);
-      &:hover{
-        color: darken($color: $color-white, $amount: 5);
+.berita-container{
+  .berita-content{
+    @include flex(row, space-evenly);
+    .berita-item{
+      background-color: $primary-color-darker;
+      border-radius: 4px;
+      color: $color-white;
+      padding: 16px;
+      width: 30vw;
+      h3{
+        margin: 8px 0;
+      }
+      img{
+        width: 50%;
+        margin: auto;
       }
     }
   }
 }
+
 
 // MOBILE
 @media (max-width: 565px) {
@@ -179,18 +199,6 @@ footer{
       }
     }
   }
-  .card-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: unset;
-    .card-jurusan{
-      min-width: 40vw;
-      margin: 8px auto;
-      img{
-        min-width: 40vw;
-      }
-    }
-  }
   footer{
     flex-wrap: wrap;
     .footer-content{
@@ -200,6 +208,28 @@ footer{
       font-size: 0.95rem;
     }
   }
+  .home-container{
+    .card-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: unset;
+      .card-jurusan{
+        min-width: 40vw;
+        margin: 8px auto;
+        img{
+          min-width: 40vw;
+        }
+      }
+    }
+  }
+  .berita-container{
+    .berita-content{
+      flex-wrap: wrap;
+    }
+
+  }
+
+
 }
 
 
