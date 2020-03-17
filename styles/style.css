@@ -48,16 +48,16 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 16px 8px 8px 8px;
+  background-color: #1B813E;
+  padding: 8px 4px 4px 4px;
   font-size: 0.9rem;
 }
 footer .footer-content {
-  background-color: #00417c;
-  color: #ededed;
+  background-color: #0b351a;
+  color: #f7f7f7;
   min-width: 30vw;
   padding: 16px;
-  margin: 8px;
-  border-radius: 4px;
+  margin: 4px;
 }
 footer .footer-content ul li {
   list-style-type: none;
@@ -150,11 +150,35 @@ footer .footer-content a:hover {
   width: 30vw;
 }
 .berita-container .berita-content .berita-item h3 {
-  margin: 8px 0;
+  margin: 16px 0;
 }
 .berita-container .berita-content .berita-item img {
-  width: 50%;
-  margin: auto;
+  display: block;
+  width: 60%;
+  margin: 8px auto;
+  border: 2px solid #fafafa;
+}
+
+.about-container .about-logo {
+  display: block;
+  width: 200px;
+  margin: 32px auto;
+}
+.about-container .about-history {
+  padding: 16px 32px;
+  background-color: #145f2e;
+  color: #fafafa;
+}
+.about-container .about-visimisi {
+  background-color: #1B813E;
+  color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+}
+.about-container .about-visimisi .visimisi-item h2 {
+  margin: 8px;
+  text-align: center;
 }
 
 @media (max-width: 565px) {
@@ -214,6 +238,10 @@ footer .footer-content a:hover {
   .berita-container .berita-content .berita-item {
     margin: 8px auto;
     width: 90vw;
+  }
+
+  .about-container .about-visimisi {
+    flex-wrap: wrap;
   }
 }
 
