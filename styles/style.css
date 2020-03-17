@@ -103,7 +103,31 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #111111;
+  background-color: #002c53;
+  padding: 16px 8px 8px 8px;
+  font-size: 0.9rem;
+}
+footer .footer-content {
+  background-color: #00417c;
+  color: #ededed;
+  min-width: 30vw;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 4px;
+}
+footer .footer-content ul li {
+  list-style-type: none;
+  color: #bababa;
+}
+footer .footer-content h2 {
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+footer .footer-content a {
+  color: #bababa;
+}
+footer .footer-content a:hover {
+  color: #ededed;
 }
 
 @media (max-width: 565px) {
@@ -141,6 +165,16 @@ footer {
   }
   .card-container .card-jurusan img {
     min-width: 40vw;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+  footer .footer-content {
+    width: 90vw;
+  }
+  footer h2 {
+    font-size: 0.95rem;
   }
 }
 

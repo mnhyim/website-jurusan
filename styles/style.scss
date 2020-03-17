@@ -20,6 +20,7 @@
 $primary-color: #005CAF;
 $primary-color-darker: darken($color: $primary-color, $amount: 8);
 $secondary-color: #F9BF45;
+$secondary-color-darker: darken($color: $secondary-color, $amount: 8);
 $color-white: #fafafa;
 $color-grey: #dfdfdf;
 $color-black: #111111;
@@ -131,7 +132,31 @@ main{
 
 footer{
   @include flex(row, space-evenly);
-  background-color: $color-black;
+  background-color: darken($color: $primary-color-darker, $amount: 10);
+  padding: 16px 8px 8px 8px;
+  font-size: 0.9rem;
+  .footer-content{
+    background-color: darken($color: $primary-color-darker, $amount: 2);
+    color: darken($color: $color-white, $amount: 5);
+    min-width: 30vw;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 4px;
+    ul li{
+      list-style-type: none;
+      color: darken($color: $color-white, $amount: 25);
+    }
+    h2{
+      margin: 0 0 16px 0;
+      text-align: center;
+    }
+    a{
+      color: darken($color: $color-white, $amount: 25);
+      &:hover{
+        color: darken($color: $color-white, $amount: 5);
+      }
+    }
+  }
 }
 
 // MOBILE
@@ -164,6 +189,15 @@ footer{
       img{
         min-width: 40vw;
       }
+    }
+  }
+  footer{
+    flex-wrap: wrap;
+    .footer-content{
+      width: 90vw;
+    }
+    h2{
+      font-size: 0.95rem;
     }
   }
 }
