@@ -48,7 +48,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #002c53;
   padding: 16px 8px 8px 8px;
   font-size: 0.9rem;
 }
@@ -97,7 +96,7 @@ footer .footer-content a:hover {
   font: "Kanit", cursive;
 }
 .home-container .desc-p {
-  background-color: #005CAF;
+  background-color: #00417c;
   color: #fafafa;
   font-size: 1.1rem;
   padding: 1.5rem;
@@ -130,14 +129,22 @@ footer .footer-content a:hover {
   font-size: calc(16px + 0.5vw);
 }
 
+.berita-container .berita-carousel {
+  background-color: #f8b11d;
+  color: #fafafa;
+  text-align: center;
+  padding: 64px;
+}
 .berita-container .berita-content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: #004786;
+  padding: 16px 0px;
 }
 .berita-container .berita-content .berita-item {
-  background-color: #004786;
-  border-radius: 4px;
+  background-color: #005CAF;
+  border-radius: 8px;
   color: #fafafa;
   padding: 16px;
   width: 30vw;
@@ -198,7 +205,15 @@ footer .footer-content a:hover {
   }
 
   .berita-container .berita-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
     flex-wrap: wrap;
+    margin: 8px auto;
+  }
+  .berita-container .berita-content .berita-item {
+    margin: 8px auto;
+    width: 90vw;
   }
 }
 
