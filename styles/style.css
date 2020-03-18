@@ -61,9 +61,20 @@ footer .footer-content .footer-item h2 {
   margin: 16px 0;
   border-bottom: 4px solid #fafafa;
 }
+footer .footer-content .footer-item ul {
+  list-style: none;
+}
+footer .footer-content .footer-item a {
+  text-decoration: none;
+  color: #e1e1e1;
+}
+footer .footer-content .footer-item a:hover {
+  color: #fafafa;
+}
 footer .footer-content .footer-item:last-child {
   color: #fafafa;
   background-color: #004786;
+  padding: 32px;
   width: 40vw;
 }
 footer .footer-content .footer-item:last-child .form-item {
@@ -72,6 +83,12 @@ footer .footer-content .footer-item:last-child .form-item {
 footer .footer-content .footer-item:last-child .form-item label {
   width: 35%;
 }
+footer .footer-cp {
+  text-align: center;
+  padding: 8px;
+  font-weight: 100;
+}
+
 .home-container .cover {
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/bgcover.JPG") #005CAF no-repeat center;

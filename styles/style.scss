@@ -88,9 +88,20 @@ footer{
         margin: 16px 0;
         border-bottom: 4px solid $color-white;
       }
+      ul{
+        list-style: none;
+      }
+      a{
+        text-decoration: none;
+        color: darken($color: $color-white, $amount: 10);
+        &:hover{
+          color: $color-white;
+        }
+      }
       &:last-child{
         color: $color-white;
         background-color: $primary-color-darker;
+        padding: 32px;
         width: 40vw;
         .form-item{
         display: flex;
@@ -102,7 +113,9 @@ footer{
     }
   }
   .footer-cp{
-
+    text-align: center;
+    padding: 8px;
+    font-weight: 100;
   }
 }
 // CSS buat index.html
