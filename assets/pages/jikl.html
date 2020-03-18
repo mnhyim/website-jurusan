@@ -6,7 +6,9 @@
 </head>
 <body>
   <header align="center">
-    <h1>Jurusan Ilmu Kebumian dan Lingkungan</h1>
+     <div id="header">
+      <a href="" class="title">Jurusan Ilmu Kebumian dan Lingkungan</a>
+     </div>
   </header>
   <main>
     <img src="../img/logo_jikl.png" alt="JIKL" width="500">
@@ -20,3 +22,36 @@
   </main>
 </body>
 </html>
+
+CSS
+#header{
+	width:100%;
+	background:#252525;
+}
+#content{
+	position:relative;
+	background:#eee;
+	margin:0px 20px;
+}
+
+/*CONTENT SECTION*/
+a.title{
+	color:#f0f0f0; 
+	font-weight:bold; 
+	text-decoration:none; 
+	font-size:20px; 
+	line-height:60px; 
+	padding:20px;
+}
+p{
+	padding:.5em 1em;
+	font-size:20px;
+	text-align:justify;
+}
+
+#header{
+	width:100%;
+	background:#252525;
+	position:fixed; /*trik posisi fix*/
+	z-index:9999; /*supaya header selalu muncul di atas seluruh elemen*/
+}
