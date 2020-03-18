@@ -44,34 +44,40 @@ header .navbar img {
   cursor: pointer;
 }
 
-footer {
+footer .footer-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #1B813E;
+  background-color: #145f2e;
   padding: 8px 4px 4px 4px;
   font-size: 0.9rem;
 }
-footer .footer-content {
-  background-color: #0b351a;
-  color: #f7f7f7;
+footer .footer-container .footer-content {
+  color: #fafafa;
   min-width: 30vw;
   padding: 16px;
+  text-align: center;
   margin: 4px;
 }
-footer .footer-content ul li {
+footer .footer-container .footer-content ul li {
   list-style-type: none;
-  color: #bababa;
+  color: #d4d4d4;
 }
-footer .footer-content h2 {
+footer .footer-container .footer-content h2 {
   margin: 0 0 16px 0;
   text-align: center;
 }
-footer .footer-content a {
-  color: #bababa;
+footer .footer-container .footer-content a {
+  color: #d4d4d4;
 }
-footer .footer-content a:hover {
+footer .footer-container .footer-content a:hover {
   color: #ededed;
+}
+footer .footer-bottom {
+  background-color: #1B813E;
+  color: #fafafa;
+  text-align: center;
+  padding: 8px;
 }
 
 .home-container .cover {
@@ -117,6 +123,7 @@ footer .footer-content a:hover {
   background-color: #fafafa;
   transition: 0.3s transform;
   max-width: 15vw;
+  cursor: pointer;
 }
 .home-container .card-container .card-jurusan:hover {
   transform: scale(1.05);
@@ -127,6 +134,9 @@ footer .footer-content a:hover {
 .home-container .card-container .card-jurusan h1 {
   padding: 4px 0;
   font-size: calc(16px + 0.5vw);
+}
+.home-container .card-container .card-jurusan a {
+  text-decoration: none;
 }
 
 .berita-container .berita-carousel {

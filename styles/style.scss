@@ -75,30 +75,38 @@ header{
 }
 
 footer{
-  @include flex(row, space-evenly);
-  background-color: $tertiary-color;
-  padding: 8px 4px 4px 4px;
-  font-size: 0.9rem;
-  .footer-content{
-    background-color: darken($color: $tertiary-color-darker, $amount: 10);
-    color: darken($color: $color-white, $amount: 1);
-    min-width: 30vw;
-    padding: 16px;
-    margin: 4px;
-    ul li{
-      list-style-type: none;
-      color: darken($color: $color-white, $amount: 25);
-    }
-    h2{
-      margin: 0 0 16px 0;
+  .footer-container{
+    @include flex(row, space-evenly);
+    background-color: $tertiary-color-darker;
+    padding: 8px 4px 4px 4px;
+    font-size: 0.9rem;
+    .footer-content{
+      color: $color-white;
+      min-width: 30vw;
+      padding: 16px;
       text-align: center;
-    }
-    a{
-      color: darken($color: $color-white, $amount: 25);
-      &:hover{
-        color: darken($color: $color-white, $amount: 5);
+      margin: 4px;
+      ul li{
+        list-style-type: none;
+        color: darken($color: $color-white, $amount: 15);
+      }
+      h2{
+        margin: 0 0 16px 0;
+        text-align: center;
+      }
+      a{
+        color: darken($color: $color-white, $amount: 15);
+        &:hover{
+          color: darken($color: $color-white, $amount: 5);
+        }
       }
     }
+  }
+  .footer-bottom{
+    background-color: $tertiary-color;
+    color: $color-white;
+    text-align: center;
+    padding: 8px;
   }
 }
 // CSS buat index.html
@@ -144,6 +152,7 @@ footer{
       // border-radius: 8px;
       transition: 0.3s transform;
       max-width: 15vw;
+      cursor: pointer;
       &:hover{
         transform: scale(1.05)
       }
@@ -154,6 +163,9 @@ footer{
       h1{
         padding: 4px 0;
         font-size: calc(16px + 0.5vw);
+      }
+      a{
+        text-decoration: none;
       }
     }
   }
