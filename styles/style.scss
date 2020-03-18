@@ -75,38 +75,34 @@ header{
 }
 
 footer{
-  .footer-container{
+  .footer-content{
     @include flex(row, space-evenly);
-    background-color: $tertiary-color-darker;
-    padding: 8px 4px 4px 4px;
-    font-size: 0.9rem;
-    .footer-content{
-      color: $color-white;
-      min-width: 30vw;
+    background-color: $primary-color;
+    display: flex;
+    padding: 32px 40px;
+    .footer-item{
       padding: 16px;
-      text-align: center;
-      margin: 4px;
-      ul li{
-        list-style-type: none;
-        color: darken($color: $color-white, $amount: 15);
-      }
       h2{
-        margin: 0 0 16px 0;
-        text-align: center;
+        color: $color-white;
+        padding: 0 0 8px 0;
+        margin: 16px 0;
+        border-bottom: 4px solid $color-white;
       }
-      a{
-        color: darken($color: $color-white, $amount: 15);
-        &:hover{
-          color: darken($color: $color-white, $amount: 5);
+      &:last-child{
+        color: $color-white;
+        background-color: $primary-color-darker;
+        width: 40vw;
+        .form-item{
+        display: flex;
+          label{
+            width: 35%;
+          }
         }
       }
     }
   }
-  .footer-bottom{
-    background-color: $tertiary-color;
-    color: $color-white;
-    text-align: center;
-    padding: 8px;
+  .footer-cp{
+
   }
 }
 // CSS buat index.html
