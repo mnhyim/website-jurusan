@@ -290,13 +290,45 @@ footer .footer-cp {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #004786;
   padding: 32px 0;
+}
+.jurusan-container .prodi-container.jmti {
+  background-color: #003541;
+}
+.jurusan-container .prodi-container.jmti .prodi-item {
+  color: #fafafa;
+  background-color: #0089A7;
+}
+.jurusan-container .prodi-container.jtip {
+  background-color: #822325;
+}
+.jurusan-container .prodi-container.jtip .prodi-item {
+  color: #fafafa;
+  background-color: #CB4042;
+}
+.jurusan-container .prodi-container.jstpk {
+  background-color: #2b2c54;
+}
+.jurusan-container .prodi-container.jstpk .prodi-item {
+  color: #fafafa;
+  background-color: #4E4F97;
+}
+.jurusan-container .prodi-container.jikl {
+  background-color: #092d15;
+}
+.jurusan-container .prodi-container.jikl .prodi-item {
+  color: #fafafa;
+  background-color: #1B813E;
+}
+.jurusan-container .prodi-container.jtsp {
+  background-color: #F7D94C;
+}
+.jurusan-container .prodi-container.jtsp .prodi-item {
+  color: #fafafa;
+  background-color: #d4b009;
 }
 .jurusan-container .prodi-container .prodi-item {
   width: 40vw;
-  color: #fafafa;
-  background-color: #005CAF;
   margin: 16px 0;
   padding: 16px;
   text-align: justify;

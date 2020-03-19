@@ -23,10 +23,16 @@ $secondary-color: #F9BF45;
 $secondary-color-darker: darken($color: $secondary-color, $amount: 8);
 $tertiary-color: #1B813E;
 $tertiary-color-darker: darken($color: $tertiary-color, $amount: 8);
+
 $color-white: #fafafa;
 $color-grey: #dfdfdf;
 $color-black: #111111;
 
+$color-jmti: #0089A7;
+$color-jtip: #CB4042;
+$color-jstpk: #4E4F97;
+$color-jikl: #1B813E;
+$color-jtsp: #F7D94C;
 
 // CSS RESET
 *{
@@ -327,12 +333,48 @@ footer{
   .prodi-container{
     @include flex(row, space-evenly);
     flex-wrap: wrap;
-    background-color: $primary-color-darker;
     padding: 32px 0;
+    &.jmti{
+      background-color: darken($color: $color-jmti, $amount: 20);
+      .prodi-item{
+        color: $color-white;
+        background-color: $color-jmti;
+      }
+    }
+
+    &.jtip{
+      background-color: darken($color: $color-jtip, $amount: 20);
+      .prodi-item{
+        color: $color-white;
+        background-color: $color-jtip;
+      }
+    }
+
+    &.jstpk{
+      background-color: darken($color: $color-jstpk, $amount: 20);
+      .prodi-item{
+        color: $color-white;
+        background-color: $color-jstpk;
+      }
+    }
+    
+    &.jikl{
+      background-color: darken($color: $color-jikl, $amount: 20);
+      .prodi-item{
+        color: $color-white;
+        background-color: $color-jikl;
+      }
+    }
+    
+    &.jtsp{
+      background-color: $color-jtsp;
+      .prodi-item{
+        color: $color-white;
+        background-color: darken($color: $color-jtsp, $amount: 20);
+      }
+    }
     .prodi-item{
       width: 40vw;
-      color: $color-white;
-      background-color: $primary-color;
       margin: 16px 0;
       padding: 16px;
       text-align: justify;
