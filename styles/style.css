@@ -289,19 +289,22 @@ footer .footer-cp {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   background-color: #004786;
   padding: 32px 0;
 }
 .jurusan-container .prodi-container .prodi-item {
-  width: 30vw;
+  width: 40vw;
   color: #fafafa;
   background-color: #005CAF;
-  text-align: justify;
+  margin: 16px 0;
   padding: 16px;
+  text-align: justify;
 }
 .jurusan-container .prodi-container .prodi-item h1 {
   border-bottom: 4px solid #fafafa;
   padding-bottom: 12px;
+  margin: 4px 0 16px 0;
 }
 
 @media (max-width: 565px) {

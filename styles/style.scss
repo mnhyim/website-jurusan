@@ -326,17 +326,20 @@ footer{
   }
   .prodi-container{
     @include flex(row, space-evenly);
+    flex-wrap: wrap;
     background-color: $primary-color-darker;
     padding: 32px 0;
     .prodi-item{
-      width: 30vw;
+      width: 40vw;
       color: $color-white;
       background-color: $primary-color;
-      text-align: justify;
+      margin: 16px 0;
       padding: 16px;
+      text-align: justify;
       h1{
         border-bottom: 4px solid $color-white;
         padding-bottom: 12px;
+        margin: 4px 0 16px 0;
       }
     }
   }
