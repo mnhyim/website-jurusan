@@ -154,7 +154,7 @@ footer .footer-cp {
   padding: 0.5em;
   font: "Kanit", cursive;
 }
-.home-container .desc-p {
+.home-container .itk-desc {
   background-color: #00417c;
   color: #fafafa;
   font-size: 1.1rem;
@@ -244,6 +244,66 @@ footer .footer-cp {
   text-align: center;
 }
 
+.jurusan-container h1 {
+  text-align: center;
+  margin: 16px;
+}
+.jurusan-container .top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.jurusan-container .top-content img {
+  display: block;
+  width: 400px;
+}
+.jurusan-container .top-content table {
+  background-color: #fafafa;
+  text-align: center;
+  border: 0px;
+  margin: auto 0;
+}
+.jurusan-container .top-content table tr:nth-child(even) {
+  background-color: #dfdfdf;
+}
+.jurusan-container .top-content table tr th {
+  background-color: #004786;
+  color: #fafafa;
+  font-weight: normal;
+  padding: 8px 16px;
+}
+.jurusan-container .top-content table tr td {
+  padding: 8px;
+}
+.jurusan-container .top-content * {
+  margin: 16px;
+}
+.jurusan-container .jurusan-desc {
+  background-color: #005CAF;
+  color: #fafafa;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.jurusan-container .prodi-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #004786;
+  padding: 32px 0;
+}
+.jurusan-container .prodi-container .prodi-item {
+  width: 30vw;
+  color: #fafafa;
+  background-color: #005CAF;
+  text-align: justify;
+  padding: 16px;
+}
+.jurusan-container .prodi-container .prodi-item h1 {
+  border-bottom: 4px solid #fafafa;
+  padding-bottom: 12px;
+}
+
 @media (max-width: 565px) {
   header {
     display: flex;
@@ -308,6 +368,21 @@ footer .footer-cp {
 
   .about-container .about-visimisi {
     flex-wrap: wrap;
+  }
+
+  .jurusan-container .top-content {
+    flex-wrap: wrap;
+    margin: 16px 0;
+  }
+  .jurusan-container .top-content img {
+    width: 100%;
+  }
+  .jurusan-container .prodi-container {
+    flex-wrap: wrap;
+  }
+  .jurusan-container .prodi-container .prodi-item {
+    width: 90vw;
+    margin: 8px 0;
   }
 }
 

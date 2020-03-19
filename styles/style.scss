@@ -184,7 +184,7 @@ footer{
       }
     }
   }
-  .desc-p{
+  .itk-desc{
     background-color: darken($color: $primary-color-darker, $amount: 2);
     color: $color-white;
     font-size: 1.1rem;
@@ -278,6 +278,70 @@ footer{
     }
   }
 }
+// CSS buat semua halaman jurusan
+.jurusan-container{
+  h1{
+    text-align: center;
+    margin: 16px;
+  }
+  .top-content{
+    @include flex(row, center);
+    img{
+      display: block;
+      width: 400px;
+    }
+    table{
+      background-color: $color-white;
+      text-align: center;
+      border: 0px;
+      margin: auto 0;
+      tr{
+        &:nth-child(odd){
+
+        }
+        &:nth-child(even){
+          background-color: $color-grey;
+        }
+        th{
+          background-color: $primary-color-darker;
+          color: $color-white;
+          font-weight: normal;
+          padding: 8px 16px;
+        }
+        td{
+          padding: 8px;
+        }
+      }
+    }
+    *{
+      margin: 16px;
+    }
+  }
+  .jurusan-desc{
+    background-color: $primary-color;
+    color: $color-white;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .prodi-container{
+    @include flex(row, space-evenly);
+    background-color: $primary-color-darker;
+    padding: 32px 0;
+    .prodi-item{
+      width: 30vw;
+      color: $color-white;
+      background-color: $primary-color;
+      text-align: justify;
+      padding: 16px;
+      h1{
+        border-bottom: 4px solid $color-white;
+        padding-bottom: 12px;
+      }
+    }
+  }
+}
+
 // MOBILE
 @media (max-width: 565px) {
   header{
@@ -340,6 +404,22 @@ footer{
   .about-container{
     .about-visimisi{
       flex-wrap: wrap;
+    }
+  }
+  .jurusan-container{
+    .top-content{
+      flex-wrap: wrap;
+      margin: 16px 0;
+      img{
+        width: 100%;
+      }
+    }
+    .prodi-container{
+      flex-wrap: wrap;
+      .prodi-item{
+        width: 90vw;
+        margin: 8px 0;
+      }
     }
   }
 
