@@ -90,6 +90,7 @@ footer{
       width: 20vw;
       padding: 16px;
       margin: 4px;
+      
       h2{
         color: $color-white;
         padding: 0 0 8px 0;
@@ -98,13 +99,23 @@ footer{
       }
       ul{
         list-style: none;
+        img{
+          width:4vw;
+          height: 4vw;
+          
+        }
+      }
+      .footer-flex{
+        @include flex(row,space-around);
       }
       a{
         text-decoration: none;
         color: darken($color: $color-white, $amount: 10);
+        
         &:hover{
           color: $color-white;
         }
+
       }
       &:last-child{
         color: $color-white;
