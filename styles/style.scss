@@ -316,9 +316,6 @@ footer{
       border: 0px;
       margin: auto 0;
       tr{
-        &:nth-child(odd){
-
-        }
         &:nth-child(even){
           background-color: $color-grey;
         }
