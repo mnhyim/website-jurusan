@@ -5,21 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='../../assets/img/logo_itk.png' rel='shortcut icon'>
-  <link rel="stylesheet" href="../../styles/style.css">
+  <link rel="stylesheet" href="/bulma/bulma.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Kanit|Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <a href="../../index.html">
-      <img src="../../assets/img/home.png" alt="Institut Teknologi Kalimantan" title="Logo ITK">
-    </a>
-    <nav class="navbar">
-      <a href="../../assets/pages/berita.html">Berita</a>
-      <a href="../../assets/pages/about.html">About</a>
-      <a href="../../assets/pages/jurusan.html">Jurusan</a>
-    </nav>
-  </header>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/index.html">
+        <img src="/assets/img/home.png" alt="Institut Teknologi Kalimantan" title="Logo ITK" width="200">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/assets/pages/berita.html">
+          Berita
+        </a>
+        <a class="navbar-item" href="/assets/pages/about.html">
+          About
+        </a>
+        <a class="navbar-item" href="/assets/pages/jurusan.html">
+          Jurusan
+        </a>
+      </div>
+  </nav>
 
   <main class="jurusan-container">
     <h1>Jurusan Sains, Teknologi Pangan dan Kemaritiman</h1>
