@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+$navbar-item-img-max-height: 3rem;
+$section-padding: 2rem 1rem;
+$footer-padding: 2rem 2rem 4rem;
+// COLOR
+$primary: #005CAF;
+$primary-darker: darken($color: $primary, $amount: 8);
+$secondary: #F9BF45;
+$secondary-darker: darken($color: $secondary, $amount: 8);
+$tertiary: #1B813E;
+$tertiary-darker: darken($color: $tertiary, $amount: 8);
+
+$color-white: #fafafa;
+$color-grey: #dfdfdf;
+$color-black: #111111;
+
+$color-jmti: #0089A7;
+$color-jtip: #CB4042;
+$color-jstpk: #4E4F97;
+$color-jikl: #1B813E;
+$color-jtsp: #F7D94C;
+
+@import "../node_modules/bulma/bulma.sass";
+
+.has-background-primary-darker{
+    background-color: $primary-darker;
+}
+.has-background-jmti{
+    background-color: $color-jmti;
+}

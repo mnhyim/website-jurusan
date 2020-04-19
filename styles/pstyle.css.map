@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACb",
-    "sources": [
-        "pstyle.scss"
-    ],
-    "names": [],
-    "file": "pstyle.css"
-}

@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>JMTI</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='../../assets/img/logo_itk.png' rel='shortcut icon'>
-  <!--- <link rel="stylesheet" href="/bulma/bulma.css"> -->
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="../../styles/custom_bulma.css">
   <link href="https://fonts.googleapis.com/css?family=Kanit|Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-  <link rel="stylesheet" href="/styles/pstyle.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
-
-<body>
-
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/index.html">
-        <img src="/assets/img/home.png" alt="Institut Teknologi Kalimantan" title="Logo ITK" width="200">
+      <a class="navbar-item" href="../../index.html">
+        <img src="../../assets/img/home.png">
       </a>
-
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-        data-target="navbarBasicExample">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -30,187 +23,226 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="/assets/pages/berita.html">
-          Berita
-        </a>
-        <a class="navbar-item" href="/assets/pages/about.html">
-          About
-        </a>
-        <a class="navbar-item" href="/assets/pages/jurusan.html">
-          Jurusan
-        </a>
+        <a class="navbar-item">Berita</a>
+        <a class="navbar-item">About</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Jurusan</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">JMTI</a>
+            <a class="navbar-item">JTIP</a>
+            <a class="navbar-item">JSTPK</a>
+            <a class="navbar-item">JIKL</a>
+            <a class="navbar-item">JTSP</a>
+          </div>
+        </div>
       </div>
+    </div>
   </nav>
-
-  <main class="container">
-
-    <div class="columns">
-      <div class="top-content column ">
-        <img src="../img/logo_jmti.png" alt="JMTI">
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Jurusan Matematika dan Teknologi Informasi</h1>
+      <h2 class="subtitle">JMTI adalah Jurusan Matematika & Teknologi Informasi. JMTI memiliki 3 program studi yaitu Sistem Informasi, Informatika, dan Matematika.</h2>
+      <div class="columns">
+        <div class="column">
+          <img src="../img/logo_jmti.png" alt="Jurusan Matematika dan Teknologi Informasi">
+        </div>
+        <div class="column">
+          <table class="table is-fullwidth is-hoverable is-striped">
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>Nama Acara</th>
+                <th>Tanggal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>Makrab</td>
+                <td>31 Januari 2023</td>
+              </tr>
+              <tr>
+                <td>2.</td>
+                <td>Seminar</td>
+                <td>33 Janurai 2023</td>
+              </tr>
+              <tr>
+                <td>3.</td>
+                <td>Roadshow DSC</td>
+                <td>34 Janurai 2023</td>
+              </tr>
+              <tr>
+                <td>4.</td>
+                <td>Kulon</td>
+                <td>37 Janurai 2023</td>
+              </tr>
+              <tr>
+                <td>5.</td>
+                <td>Ulang tahun</td>
+                <td>39 Janurai 2023</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-      <table class="table column">
-        <thead>
-          <tr>
-            <th>No.</th>
-            <th>Nama Acara</th>
-            <th>Tanggal</th>
-          </tr>
-        </thead>
-        <tfoot>
-          <tr>
-            <td>1.</td>
-            <td>Makrab</td>
-            <td>31 Januari 2023</td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td>Seminar</td>
-            <td>33 Janurai 2023</td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td>Roadshow DSC</td>
-            <td>34 Janurai 2023</td>
-          </tr>
-          <tr>
-            <td>4.</td>
-            <td>Kulon</td>
-            <td>37 Janurai 2023</td>
-          </tr>
-          <tr>
-            <td>5.</td>
-            <td>Ulang tahun</td>
-            <td>39 Janurai 2023</td>
-          </tr>
-        </tfoot>
-      </table>
     </div>
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">JMTI</h1>
-          <h2 class="subtitle">
-            JMTI adalah Jurusan Matematika & Teknologi Informasi. JMTI memiliki 3 program studi yaitu Sistem Informasi,
-            Informatika, dan Matematika.
-          </h2>
+  </section>
+  <section class="section has-background-link">
+    <div class="container">
+      <div class="columns is-multiline is-vcentered">
+        <div class="column is-6">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-4">Informatika</p>
+              <p class="subtitle is-6">
+                Informatika (Inggris: Informatics) merupakan disiplin ilmu yang mempelajari transformasi fakta berlambang
+                yaitu data maupun informasi pada mesin berbasis komputasi. Disiplin ilmu ini mencakup beberapa macam bidang,
+                termasuk di dalamnya: sistem informasi, ilmu komputer, ilmu informasi, teknik komputer dan aplikasi
+                informasi dalam sistem informasi manajemen. Secara umum informatika mempelajari struktur, sifat, dan interaksi dari
+                beberapa sistem yang dipakai untuk mengumpulkan data, memproses dan menyimpan hasil pemrosesan data, serta
+                menampilkannya dalam bentuk informasi.
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Lihat <a href="https://if.itk.ac.id">Website Prodi</a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span>
+                  Lihat <a href="https://instagram.com">Instagram Prodi</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-4">Sistem Informasi</p>
+              <p class="subtitle is-6">
+                Program Studi Sistem Informasi adalah program studi yang mencakup 2 domain, yaitu Bisnis dan Teknologi
+                Informasi. Menurut Ronald Stamper (Organisational Semiotics), Sistem Informasi adalah bidang ilmu yang
+                menjembatani kesenjangan antara komponen teknis (TI) dan non teknis (manajemen). Sehingga lulusan dari
+                Program Studi Sistem Informasi diharapkan memiliki kompetensi di bidang Teknologi Informasi dan Bisnis.
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Lihat <a href="https://is.itk.ac.id">Website Prodi</a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span>
+                  Lihat <a href="https://instagram.com">Instagram Prodi</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-12">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-4">Matematika</p>
+              <p class="subtitle is-6">
+                Matematika berasal dari bahasa Yunani mathēma, yang berarti “knowledge, study, learning” (wikipedia). Secara
+                khusus lagi, matematika bisa disebut dengan ilmu pasti yang berkaitan dengan penalaran. Agar penalaran ini
+                bisa dipelajari, digunakanlah angka, simbol dan pemodelan. Yang nantinya diturunkan lagi menjadi rumus-rumus
+                matematis.
+              </p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  Lihat <a href="https://math.itk.ac.id">Website Prodi</a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span>
+                  Lihat <a href="https://instagram.com">Instagram Prodi</a>
+                </span>
+              </p>
+            </footer>
+          </div>
         </div>
       </div>
-    </section>
-    <section class="section">
-      <div class="columns">
-        <div class="column">
-          <h1 class="title">Informatika</h1>
-          <p class="subtitle">
-            Informatika (Inggris: Informatics) merupakan disiplin ilmu yang mempelajari transformasi fakta berlambang
-            yaitu data maupun informasi pada mesin berbasis komputasi. Disiplin ilmu ini mencakup beberapa macam bidang,
-            termasuk di dalamnya: sistem informasi, ilmu komputer, ilmu informasi, teknik komputer dan aplikasi
-            informasi
-            dalam sistem informasi manajemen. Secara umum informatika mempelajari struktur, sifat, dan interaksi dari
-            beberapa sistem yang dipakai untuk mengumpulkan data, memproses dan menyimpan hasil pemrosesan data, serta
-            menampilkannya dalam bentuk informasi.
-          </p>
-        </div>
-        <div class="column">
-          <h1 class="title">Sistem Informasi</h1>
-          <p class="subtitle">
-            Program Studi Sistem Informasi adalah program studi yang mencakup 2 domain, yaitu Bisnis dan Teknologi
-            Informasi. Menurut Ronald Stamper (Organisational Semiotics), Sistem Informasi adalah bidang ilmu yang
-            menjembatani kesenjangan antara komponen teknis (TI) dan non teknis (manajemen). Sehingga lulusan dari
-            Program
-            Studi Sistem Informasi diharapkan memiliki kompetensi di bidang Teknologi Informasi dan Bisnis.
-          </p>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column">
-          <h1 class="title">Matematika</h1>
-          <p class="subtitle">
-            Matematika berasal dari bahasa Yunani mathēma, yang berarti “knowledge, study, learning” (wikipedia). Secara
-            khusus lagi, matematika bisa disebut dengan ilmu pasti yang berkaitan dengan penalaran. Agar penalaran ini
-            bisa dipelajari, digunakanlah angka, simbol dan pemodelan. Yang nantinya diturunkan lagi menjadi rumus-rumus
-            matematis.
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
+    </div>
+  </section>
+  <footer class="footer has-background-primary has-text-white">
     <div class="columns">
-      <div class="footer-item column">
-        <h2>Media Social</h2>
-        <ul class="columns">
-          <li class="column ">
-            <a href="https://twitter.com/search?q=institut%20teknologi%20kalimantan">
-              <img src="/assets/img/twitter.png">
-              <p>Twitter</p>
-            </a>
-          </li>
-          <li class="column">
-            <a href="https://www.facebook.com">
-              <img src="/assets/img/facebook.png">
-              <p>Facebook</p>
-            </a>
-          </li>
-          <li class="column">
-            <a href="https://www.instagram.com/itk_official/">
-              <img src="/assets/img/instagram.png">
-              <p>Instagram</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-item column">
-        <h2>Layanan</h2>
+      <div class="column is-2">
+        <h2 class="title is-5 has-text-white">Sosial Media</h2>
         <ul>
-          <li>
-            <a href="http://sikantan.itk.ac.id/">SIKANTAN</a>
-          </li>
-          <li>
-            <a href="http://mail.itk.ac.id/">ITK Webmail</a>
-          </li>
-          <li>
-            <a href="http://pmb.itk.ac.id/">Penerimaan Mahasiswa Baru</a>
-          </li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
         </ul>
       </div>
-      <div class="field">
-        <h2>Contact Us</h2>
-        <form>
-          <div class="field">
-            <label class="label is-small">Nama</label>
-            <div class="control">
-              <input class="input is-small" type="text" placeholder="Nama">
-            </div>
-          </div>
-          <div class="field">
-            <label class="label is-small">Nim</label>
-            <div class="control">
-              <input class="input is-small" type="text" placeholder="Nama">
-            </div>
-          </div>
-          <div class="field">
-            <label class="label is-small">Email</label>
-            <div class="control">
-              <input class="input is-small" type="text" placeholder="Nama">
-            </div>
-          </div>
-          <div class="field">
-            <label class="label is-small">Pesan</label>
-            <div class="control">
-              <input class="input is-small" type="text" placeholder="Nama">
-            </div>
-          </div>
-
-          <button>SUBMIT</button>
-        </form>
+      <div class="column is-2">
+        <h2 class="title is-5 has-text-white">Layanan</h2>
+        <ul>
+          <li>SIKANTAN</li>
+          <li>ITK Webmail</li>
+          <li>Penerimaan Mahasiswa Baru</li>
+        </ul>
       </div>
-    </div>
-    <div class="footer-cp">
-      Copyright © 2020. All rights reserved.
+      <div class="column is-4">
+        <h2 class="title is-5 has-text-white">Temukan Kami</h2>
+        <div style="width: 100%"><iframe width="100%" height="350" src="https://maps.google.com/maps?width=100%&amp;height=350&amp;hl=en&amp;coord=-1.15041555, 116.8614686&amp;q=Jl.%20Soekarno-Hatta%20Km.%2015%2C%20Karang%20Joang%2C%20%20%20%20%20%20%20%20%20%20%20%20Balikpapan%2C%20Kalimantan%20Timur%2C%2076127+(Institut%20Teknologi%20Kalimantan)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/draw-radius-circle-map/">Radius map tool</a></iframe></div><br />
+      </div>
+      <div class="column is-4 has-background-primary-darker">
+        <h2 class="title is-5 has-text-white">Hubungi Kami</h2>
+        <div>
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <label class="label has-text-white">Nama</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Nama Lengkap">
+                </div>
+              </div>
+              <div class="field">
+                <label class="label has-text-white">NIM</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Nomor Induk Mahasiswa">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label has-text-white">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label has-text-white">Pesan</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Pesan"></textarea>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <label class="checkbox">
+                <input type="checkbox">
+                I agree to the <a href="#">terms and conditions</a>
+              </label>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-link is-light">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
 </body>
-
 </html>
