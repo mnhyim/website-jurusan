@@ -9414,4 +9414,11 @@ label.panel-block:hover {
   padding: 25vh 0;
 }
 
+.paragraph {
+  margin: 0 0 12px 0;
+}
+.paragraph:last-of-type {
+  margin: initial;
+}
+
 /*# sourceMappingURL=custom_bulma.css.map */
