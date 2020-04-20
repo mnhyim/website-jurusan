@@ -1,3 +1,4 @@
+node_modules
 bulma/bulma.css
 bulma/bulma.css.map
 bulma/bulma.sass
@@ -75,4 +76,3 @@ bulma/sass/utilities/initial-variables.css
 bulma/sass/utilities/initial-variables.css.map
 bulma/sass/utilities/initial-variables.sass
 bulma/sass/utilities/mixins.sass
-node_modules
