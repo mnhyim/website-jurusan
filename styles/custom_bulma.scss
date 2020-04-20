@@ -11,25 +11,61 @@ $secondary-darker: darken($color: $secondary, $amount: 8);
 $tertiary: #1B813E;
 $tertiary-darker: darken($color: $tertiary, $amount: 8);
 
-$color-white: #fafafa;
-$color-grey: #dfdfdf;
-$color-black: #111111;
-
-$color-jmti: #0089A7;
-$color-jtip: #CB4042;
-$color-jstpk: #4E4F97;
-$color-jikl: #1B813E;
-$color-jtsp: #F7D94C;
+$color-jmti: #1177a7;
+$color-jmti-darker: darken($color: $color-jmti, $amount: 8);
+$color-jtip: rgb(204, 86, 90);
+$color-jtip-darker: darken($color: $color-jtip, $amount: 8);
+$color-jstpk: rgb(82, 83, 168);
+$color-jstpk-darker: darken($color: $color-jstpk, $amount: 8);
+$color-jikl: rgb(55, 148, 88);
+$color-jikl-darker: darken($color: $color-jikl, $amount: 8);
+$color-jtsp: rgb(104, 104, 104);
+$color-jtsp-darker: darken($color: $color-jtsp, $amount: 8);
 
 @import "../node_modules/bulma/bulma.sass";
+
+.hero .navbar{
+    background-color: $white !important;
+}
+.has-bottom-border{
+    padding: 12px 0;
+    border-bottom: 4px solid white;
+}
 
 .has-background-primary-darker{
     background-color: $primary-darker;
 }
 .has-background-jmti{
     background-color: $color-jmti;
+    &-darker{
+        background-color: $color-jmti-darker;
+    }
+}
+.has-background-jtip{
+    background-color: $color-jtip;
+    &-darker{
+        background-color: $color-jtip-darker;
+    }
+}
+.has-background-jstpk{
+    background-color: $color-jstpk;
+    &-darker{
+        background-color: $color-jstpk-darker;
+    }
+}
+.has-background-jikl{
+    background-color: $color-jikl;
+    &-darker{
+        background-color: $color-jikl-darker;
+    }
 }
 
+.has-background-jtsp{
+    background-color: $color-jtsp;
+    &-darker{
+        background-color: $color-jtsp-darker;
+    }
+}
 .bgimage{
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../assets/img/bgcover.JPG') $primary no-repeat center;
@@ -37,7 +73,4 @@ $color-jtsp: #F7D94C;
     min-height: 50vh;
     max-width: 100vw;
     padding: 25vh 0;
-}
-.hero .navbar{
-    background-color: $white !important;
 }
