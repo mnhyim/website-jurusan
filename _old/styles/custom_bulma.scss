@@ -22,7 +22,7 @@ $color-jikl-darker: darken($color: $color-jikl, $amount: 8);
 $color-jtsp: rgb(104, 104, 104);
 $color-jtsp-darker: darken($color: $color-jtsp, $amount: 8);
 
-@import "../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma/bulma.sass";
 
 .hero .navbar{
     background-color: $white !important;
