@@ -1,15 +1,14 @@
 <template>
-  <div class="home">
+  <div class="berita">
     <Navbar/>
-    <h1>Ini halaman Home</h1>
+    <h1>Ini halaman Berita</h1>
   </div>
 </template>
-
 <script>
   import Navbar from '@/components/Navbar.vue';
 
   export default {
-    name: 'Home',
+    name: 'Berita',
     components: {
       Navbar
     }
