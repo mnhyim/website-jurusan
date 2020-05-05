@@ -1,5 +1,5 @@
 <template>
-  <a href="X">
+  <a v-on:click="chgRoute">
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
@@ -21,6 +21,11 @@ export default {
     'name',
     'img',
     'link'
-  ]
+  ],
+  methods:{
+    chgRoute:function(){
+      this.$router.push(this.link)
+    }
+  }
 }
 </script>

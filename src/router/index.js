@@ -6,17 +6,35 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
+    meta: {title: 'Home'},
     component: () => import('../views/Home.vue')
   },
+
   {
     path: '/about',
     name: 'About',
+    meta: {title: 'About'},
     component: () => import('../views/About.vue')
   },
+
   {
     path: '/berita',
     name: 'Berita',
+    meta: {title: 'Berita'},
     component: () => import('../views/Berita.vue')
+  },
+
+  {
+    path: '/jurusan/:jurusan',
+    meta: {title: ':jurusan'},
+    component:() => import('../views/Jurusan.vue')
+  },
+
+  {
+    path: '*',
+    name: '404',
+    meta: {title: 'Error 404'},
+    component: () => import('../views/404.vue')
   }
 ]
 

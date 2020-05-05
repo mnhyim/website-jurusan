@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <CompNavbar/>
+    <v-navbar/>
     <router-view/>
-    <CompFooter/>
+    <v-footer/>
   </div>
 </template>
 
 <script>
-  import CompNavbar from '@/components/Navbar.vue';
-  import CompFooter from '@/components/Footer.vue';
+  import Navbar from '@/components/Navbar.vue';
+  import Footer from '@/components/Footer.vue';
   export default {
-    components: {CompNavbar,CompFooter},
+    components: {
+      'v-navbar' : Navbar,
+      'v-footer' : Footer
+    },
+    watch: {
+      '$route' (to) {
+        document.title = to.meta.title
+      }
+    }
   }
+
 </script>
 
 <style>

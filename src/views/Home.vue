@@ -31,22 +31,27 @@
           {
             name : 'JMTI',
             img : 'logo_jmti.png',
+            link: '/jurusan/jmti'
           },
           {
             name : 'JTIP',
             img : 'logo_jtip.png',
+            link: '/jurusan/jtip'
           },
           {
             name : 'JTSP',
             img : 'logo_jtsp.png',
+            link: '/jurusan/jtsp'
           },
           {
             name : 'JIKL',
             img : 'logo_jikl.png',
+            link: '/jurusan/jikl'
           },
           {
             name : 'JSTPK',
             img : 'logo_jstpk.png',
+            link: '/jurusan/jstpk'
           }
         ]
       }
