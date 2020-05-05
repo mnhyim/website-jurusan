@@ -1,6 +1,6 @@
 # Website Jurusan ITK
 Website jurusan ITK dengan menggunakan framework Bulma,
-Ini folder projek ketika belum menggunakan Vue.Js
+ini folder projek ketika belum menggunakan Vue.Js
 ## Anggota
 1. Aishiela Ayu Permatasari - 11181006
 2. Erza Fahmi Fasya - 11181024
