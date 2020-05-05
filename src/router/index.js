@@ -26,7 +26,6 @@ Vue.use(VueRouter)
 
   {
     path: '/jurusan/:jurusan',
-    meta: {title: ':jurusan'},
     component:() => import('../views/Jurusan.vue')
   },
 
