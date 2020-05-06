@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img :src="require(`@/assets//${img}`)" :alt=" name ">
+          <img :src="require(`@/assets//${img}`)" :alt="name">
         </figure>
       </div>
       <div class="card-content">
@@ -18,6 +18,7 @@
 <script>
 export default {
   props: [
+    'id',
     'name',
     'img',
     'link'
@@ -25,7 +26,7 @@ export default {
   methods:{
     chgRoute:function(){
       this.$router.push(this.link)
-    }
+    },
   }
 }
 </script>

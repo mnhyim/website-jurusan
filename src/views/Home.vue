@@ -29,26 +29,31 @@
       return {
         jurusan: [
           {
+            id: 0,
             name : 'JMTI',
             img : 'logo_jmti.png',
             link: '/jurusan/jmti'
           },
           {
+            id: 1,
             name : 'JTIP',
             img : 'logo_jtip.png',
             link: '/jurusan/jtip'
           },
           {
+            id: 2,
             name : 'JTSP',
             img : 'logo_jtsp.png',
             link: '/jurusan/jtsp'
           },
           {
+            id: 3,
             name : 'JIKL',
             img : 'logo_jikl.png',
             link: '/jurusan/jikl'
           },
           {
+            id: 4,
             name : 'JSTPK',
             img : 'logo_jstpk.png',
             link: '/jurusan/jstpk'

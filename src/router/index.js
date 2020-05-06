@@ -26,6 +26,7 @@ Vue.use(VueRouter)
 
   {
     path: '/jurusan/:jurusan',
+    meta: {title: 'Jurusan'},
     component:() => import('../views/Jurusan.vue')
   },
 
@@ -38,8 +39,12 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
+  scrollBehavior() {
+    window.scrollTo(0,0);
+  },
   mode: 'history',
   routes
 })
+
 
 export default router
