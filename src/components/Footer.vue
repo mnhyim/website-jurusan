@@ -109,6 +109,6 @@
     margin: 0 12px 0 0;
   }
   .footer-text{
-    padding: 4px;
+    padding: 8px;
   }
 </style>

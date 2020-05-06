@@ -13,13 +13,13 @@ $tertiary-darker: darken($color: $tertiary, $amount: 8);
 
 $color-jmti: #1177a7;
 $color-jmti-darker: darken($color: $color-jmti, $amount: 8);
-$color-jtip: rgb(204, 86, 90);
+$color-jtip: #cc565a;
 $color-jtip-darker: darken($color: $color-jtip, $amount: 8);
-$color-jstpk: rgb(82, 83, 168);
+$color-jstpk: #5253a8;
 $color-jstpk-darker: darken($color: $color-jstpk, $amount: 8);
-$color-jikl: rgb(55, 148, 88);
+$color-jikl: #379458;
 $color-jikl-darker: darken($color: $color-jikl, $amount: 8);
-$color-jtsp: rgb(104, 104, 104);
+$color-jtsp: #686868;
 $color-jtsp-darker: darken($color: $color-jtsp, $amount: 8);
 
 @import "../../node_modules/bulma/bulma.sass";

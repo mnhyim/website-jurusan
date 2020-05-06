@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <v-navbar/>
-    <router-view/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
     <v-footer/>
   </div>
 </template>
@@ -23,7 +25,26 @@
 
 </script>
 
-<style>
+<style lang="scss">
+  // Customize Bulma here
+  $primary: #6775ef;
+  $jmti: #005CAF;
+  $jmti-darker: darken($color: $jmti, $amount: 8);
+  $jtip: #cc565a;
+  $jtip-darker: darken($color: $jtip, $amount: 8);
+  $jtsp: #686868;
+  $jtsp-darker: darken($color: $jtsp, $amount: 8);
+  $jikl: #379458;
+  $jikl-darker: darken($color: $jikl, $amount: 8);
+  $jstpk: #5253a8;
+  $jstpk-darker: darken($color: $jstpk, $amount: 8);
+
+  // Import Bulma's core
+  @import "~bulma/sass/utilities/_all";
+  // Import Bulma and Buefy styles
+  @import "~bulma";
+  @import "~buefy/src/scss/buefy";
+
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -35,4 +56,36 @@
     padding-bottom: 8px;
     border-bottom: 3px solid white;
   }
-</style>
+
+  .has-background-jmti{
+      background-color: $jmti;
+      &-darker{
+          background-color: $jmti-darker;
+      }
+  }
+  .has-background-jtip{
+      background-color: $jtip;
+      &-darker{
+          background-color: $jtip-darker;
+      }
+  }
+  .has-background-jstpk{
+      background-color: $jstpk;
+      &-darker{
+          background-color: $jstpk-darker;
+      }
+  }
+  .has-background-jikl{
+      background-color: $jikl;
+      &-darker{
+          background-color: $jikl-darker;
+      }
+  }
+
+  .has-background-jtsp{
+      background-color: $jtsp;
+      &-darker{
+          background-color: $jtsp-darker;
+      }
+  }  
+</style>>

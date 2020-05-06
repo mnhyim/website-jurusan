@@ -2,7 +2,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img :src="require(`@/assets/${jurusan.image}`)" :alt="jurusan.name">
+          <img v-bind:src="require(`@/assets/${jurusan.image}`)" :alt="jurusan.name">
         </figure>
       </div>
       <div class="card-content">

@@ -1,0 +1,25 @@
+{
+  "berita": [
+    {
+      "id" : 0,
+      "images": "berita_1.jpg",
+      "link": "https://itk.ac.id/bayaruddin-s-t-m-t-m-sc-dosen-teknik-sipil-yang-menjadi-perwakilan-itk-dalam-program-bridging-di-taiwan/",
+      "title" : "Bayaruddin., S.T.,M.T., M.Sc Dosen Teknik Sipil yang Menjadi Perwakilan ITK dalam Program Bridging di Taiwan",
+      "berita" : "Taiwan – Diakhir tahun 2019, Bayaruddin., S.T.,M.T., M.Sc berhasil mewakili Institut Teknologi Kalimantan (ITK) sebagai partisipan dalam program Briding di Taiwan bersama 20 partisipan lainnya dari seluruh Universitas di Indonesia. Secara umum, program Bridging merupakan hubungan kemitraan formal antar dua lembaga yang memberikan peluang bagi siswa di lembaga tersebut untuk belajar atau mendapatkan pengalaman di lembaga lain. Biasanya, program Bridging diberikan kepada mahasiswa sarjana atau pascasarjana yang sedang belajar untuk melanjutkan kuliah. Bridging program adalah kelanjutan program PKBI atau Peningkatan Kompetensi Bahasa Inggris oleh Ditjen Sumber Daya Iptek dan Dikti (Ditjen Dikti) Kemenristekdikti yang dilakukan pada tahun 2018/2019. Dari program PKBI terpilih beberapa dosen dengan IELTS yang cukup tinggi agar dapat melakukan Bridging ke negara-negara tujuan, untuk partisipan dari jurusan teknik mayoritas akan dikirim ke Negara Taiwan."
+    },
+    {
+      "id" : 1,
+      "images": "berita_2.jpg",
+      "link": "https://itk.ac.id/bayaruddin-s-t-m-t-m-sc-dosen-teknik-sipil-yang-menjadi-perwakilan-itk-dalam-program-bridging-di-taiwan/",
+      "title" : "Dosen muda, Gusti Umindya Nur Tajalla, S.T., M.T., dan mahasiswi Ansita Fitri Budi Hartanti dari Teknik Material dan Metalurgi telah mengikuti kegiatan Sakura Science Exchange Program (SSEP)",
+      "berita" : "Sakura Science Exchange Program merupakan program yang ditawarkan oleah Japan and Science Technology Agency (JST) yang bertujuan untuk memberikan kesempatan kepada mahasiswa, dosen, dan peneliti muda di seluruh negara Asia untuk mempelajari teknologi yang sedang berkembang di Jepang di bidang sains. Sejak tahun 2014, sekitar 26.000 peserta telah aktif berpartisipasi dalam kegiatan ini. Selain itu, pengalaman ini diharapkan dapat menciptakan kolaborasi riset dan program pendidikan sehingga hubungan baik antar negara dapat terjalin dengan baik. Dalam kesempatan ini, saya dan mahasiswi saya, Ansita Fitri Budi Hartanti dari Program Studi Teknik Material dan Metalurgi berpartisipasi aktif dalam kegiatan ini."
+    },
+    {
+      "id" : 2,
+      "images": "berita_3.jpg",
+      "link": "https://itk.ac.id/bayaruddin-s-t-m-t-m-sc-dosen-teknik-sipil-yang-menjadi-perwakilan-itk-dalam-program-bridging-di-taiwan/",
+      "title" : "Sambut IKN baru, JTSP inisiasi kerjasama Internasional dengan Technische Universitas Munchen #JTSPJuara",
+      "berita" : "Bali – Jurusan Teknik Sipil dan Perencanaan (JTSP) Institut Teknologi Kalimatan melakukan penandatangan Memorandum of Agreement (MoA) Building with Nature (BwN) pada Selasa, 28 Januari 2020 di Hotel Paragon Jimbaran, Bali. Ketua Jurusan Teknik Sipil dan Perencanaan (JTSP) Andika Ade Indra Saputra S.T., M.T hadir mewakili Institut Teknologi Kalimantan dalam rangka penandatanganan MoA bersama dengan 4 perguruan tinggi negeri lainnya."
+    }
+  ]
+}
