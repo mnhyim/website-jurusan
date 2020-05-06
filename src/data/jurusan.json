@@ -1,0 +1,176 @@
+{
+  "jurusan" : [
+    {
+      "id": "1",
+      "abbr": "JMTI",
+      "name": "Jurusan Matematika dan Teknologi Informasi",
+      "desc": "JMTI memiliki 3 program studi yaitu Sistem Informasi, Informatika, dan Matematika.",
+      "image": "logo_jmti.png",
+      "prodi": [
+        {
+          "id": "1",
+          "name": "Informatika",
+          "desc": "Informatika merupakan disiplin ilmu yang mempelajari transformasi fakta berlambang yaitu data maupun informasi pada mesin berbasis komputasi. Disiplin ilmu ini mencakup beberapa macam bidang, termasuk di dalamnya: sistem informasi, ilmu komputer, ilmu informasi, teknik komputer dan aplikasi informasi dalam sistem informasi manajemen. Secara umum informatika mempelajari struktur, sifat, dan interaksi dari beberapa sistem yang dipakai untuk mengumpulkan data, memproses dan menyimpan hasil pemrosesan data, serta menampilkannya dalam bentuk informasi.",
+          "link":{
+            "website": "http://if.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sistem Informasi",
+          "desc": "Program Studi Sistem Informasi adalah program studi yang mencakup 2 domain, yaitu Bisnis dan Teknologi Informasi. Menurut Ronald Stamper (Organisational Semiotics), Sistem Informasi adalah bidang ilmu yang menjembatani kesenjangan antara komponen teknis (TI) dan non teknis (manajemen). Sehingga lulusan dari Program Studi Sistem Informasi diharapkan memiliki kompetensi di bidang Teknologi Informasi dan Bisnis.",
+          "link":{
+            "website": "http://is.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "3",
+          "name": "Matematika",
+          "desc": "Para mahasiswa di program studi Matematika mempelajari matematika murni seperti aljabar, geometri, dan analisis matematika. Selain itu para mahasiswa juga berpeluang untuk mempelajari statistika, komputasi, aktuaria, dan riset operasi. Meskipun pelajaran matematika sudah sangat dikenal oleh setiap orang, Program Studi Matematika malah kurang mendapatkan minat. Selain prospek kariernya yang masih sangat terbatas, mata kuliah ini pun kerap dianggap rumit. Namun sebenarnya, Jurusan Matematika mempelajari banyak hal yang tidak hanya sekadar perhitungan rumus-rumus.",
+          "link":{
+            "website": "http://math.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+          
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "abbr": "JTIP",
+      "name": "JTIP adalah Teknologi Industri & Proses",
+      "desc": "JTIP memiliki 4 program studi yaitu Teknik Mesin, Teknik Elektro, Teknik Kimia, dan Teknik Industri.",
+      "image":"logo_jtip",
+      "prodi": [
+        {
+          "id": "1",
+          "name": "Teknik Mesin",
+          "desc": "Teknik mesin atau Teknik mekanik adalah ilmu teknik mengenai aplikasi dari prinsip fisika untuk analisis, desain, manufaktur dan pemeliharaan sebuah sistem mekanik. Ilmu ini membutuhkan pengertian mendalam atas konsep utama dari cabang ilmu mekanika, kinematika, teknik material, termodinamika dan energi. Ahli atau pakar dari teknik mesin biasanya disebut sebagai insinyur (teknik mesin), yang memanfaatkan pengertian atas ilmu teknik ini dalam mendesain dan menganalisis pembuatan kendaraan, pesawat, pabrik industri, peralatan dan mesin industri dan lain sebagainya.",
+          "link":{
+            "website": "http://me.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Teknik Elektro",
+          "desc": "Teknik elektro merupakan ilmu teknik yang mempelajari sifat-sifat elektron yang kita kenal sebagai listrik. Mahasiswa Teknik Elektro mempelajari aplikasi dan pemanfaatan listrik dalam kehidupan sehari-hari, serta teknologi yang terkait. Cakupan teknik elektro sangat luas, mulai dari sumber pembangkit tenaga listrik, sistem jaringan distribusi, sampai pada pemanfaatannya oleh pengguna akhir. Teknik Elektro pun dipecah menjadi beberapa konsentrasi, seperti teknik elektronika, teknik listrik, teknik instrumentasi, sampai teknik komputer dan telekomunikasi.",
+          "link":{
+            "website": "http://ee.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "3",
+          "name": "Teknik Kimia",
+          "desc": "Teknik kimia (Inggris: chemical engineering) adalah cabang ilmu teknik atau rekayasa yang mempelajari pemrosesan bahan mentah menjadi barang yang lebih berguna, dapat berupa barang jadi ataupun barang setengah jadi. Ilmu teknik kimia diaplikasikan terutama dalam perancangan dan pemeliharaan proses-proses kimia, baik dalam skala kecil maupun dalam skala besar seperti pabrik. Insinyur teknik kimia yang pekerjaannya bertanggung jawab terhadap perancangan dan perawatan proses kimia pada skala pabrik dikenal dengan sebutan 'insinyur proses' (process engineer).",
+          "link":{
+            "website": "http://che.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "4",
+          "name": "Teknik Industri",
+          "desc": "Teknik industri (dalam bahasa Inggris, industrial engineering) adalah suatu teknik yang mencakup bidang desain, perbaikan, dan pemasangan dari sistem integral yang terdiri dari manusia, bahan-bahan, informasi, peralatan dan energi. Hal ini digambarkan sebagai pengetahuan dan keterampilan yang spesifik pada matematika, fisika, dan ilmu-ilmu sosial bersama dengan prinsip dan metode dari analisis keteknikan dan desain untuk mengkhususkan, memprediksi, dan mengevaluasi hasil yang akan dicapai dari suatu sistem.",
+          "link":{
+            "website": "http://ie.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "abbr": "JTSP",
+      "name": "Jurusan Teknologi Sipil & Perencanaan",
+      "desc": "JTSP memiliki 2 program studi yaitu Teknik Sipil dan Perencanaan Wilayah dan Kota.",
+      "image": "logo_jtsp.png",
+      "prodi": [
+        {
+          "id": "1",
+          "name": "Teknik Sipil",
+          "desc": "Teknik Sipil adalah salah satu cabang ilmu teknik yang mempelajari tentang bagaimana merancang, membangun, merenovasi tidak hanya gedung dan infrastruktur, tetapi juga mencakup lingkungan untuk kemaslahatan hidup manusia. Teknik sipil mempunyai ruang lingkup yang luas, di dalamnya pengetahuan matematika, fisika, kimia, biologi, geologi, lingkungan hingga komputer mempunyai peranannya masing-masing. Teknik sipil dikembangkan sejalan dengan tingkat kebutuhan manusia dan pergerakannya, hingga bisa dikatakan ilmu ini bisa mengubah sebuah hutan menjadi kota besar.",
+          "link":{
+            "website": "http://ce.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Perencanaan Wilayah dan Kota",
+          "desc": "Perencanaan Wilayah dan Kota atau biasa dikenal dengan Planologi adalah sebuah program studi yang mempelajari dasar-dasar perencanaan, morfologi kota, perpetaan, struktur tanah, transportasi, serta desain. Selain ilmu-ilmu mengenai keteknikan, juga dipelajari ilmu sosial ekonomi perkotaan. Berbeda dengan jurusan Arsitektur Lanskap yang lebih mengutamakan sisi keindahan dan estetika lokasi, Teknik Perencanaan Wilayah dan Kota lebih mempertimbangkan aspek sosial, ekonomi, dan politik dalam pembangunan. Lulusan sarjana Teknik Planologi yang biasa disebut sebagai planner, nantinya akan memiliki kompetensi untuk melakukan perencanaan sebuah kota, menentukan tata guna lahan, sistem transportasi, serta mengatur aktivitas-aktivitas yang ada di dalamnya.",
+          "link":{
+            "website": "http://urp.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "abbr": "JIKL",
+      "name": "Jurusan Ilmu Kebumian & Lingkungan",
+      "desc": "JIKL memiliki 2 program studi yaitu Teknik Material dan Metalurgi, dan Teknik Lingkungan.",
+      "image": "logo_jikl.png",
+      "prodi": [
+        {
+          "id": "1",
+          "name": "Teknik Material dan Metalurgi",
+          "desc": "Teknik Material dan Metalurgi mempelajari sifat-sifat kimia yang terkandung dalam logam. Dari kandungan kimia tersebut, para mahasiswa akan memahami fungsi masing-masing jenis logam untuk kehidupan sehari-hari. Program studi Teknik Metalurgi memang kalah populer jika dibandingkan dengan teknik pertambangan dan perminyakan, teknik sipil, atau teknik industri. Meski begitu, para insinyur metalurgi sangat dibutuhkan saat ini. Selain ekstraksi logam, metalurgi juga mempelajari produksi logam.",
+          "link":{
+            "website": "http://mme.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Sistem Lingkungan",
+          "desc": "Teknik Lingkungan adalah sebuah program studi yang berusaha untuk menyelesaikan permasalahan lingkungan dengan pendekatan teknologi. Teknik Lingkungan dijabarkan sebagai pemikiran keteknikan dan keterampilan dalam memecahkan masalah pengendalian lingkungan yang menyangkut penyediaan air minum; sistem pembuangan dan pendaurulangan buangan cair, padat, dan gas; sistem drainase perkotaan dan desa serta sanitasi lingkungan; pengendalian pencemar dan pengelolaan kualitas air, tanah, dan udara; serta pengendalian dan pengelolaan dampak lingkungan.",
+          "link":{
+            "website": "http://enviro.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "abbr": "JSTPK",
+      "name": "Jurusan Sains, Teknologi Pangan & Kemaritiman",
+      "desc": "JSTPK memiliki 3 program studi yaitu Fisika, Teknik Perkapalan, dan Kelautan.",
+      "image":"logo_jstpk.png",
+      "prodi": [
+        {
+          "id": "1",
+          "name": "Teknik Kelautan",
+          "desc": "Teknik Kelautan (Inggris: Ocean engineering) adalah cabang ilmu teknik atau rekayasa yang mempelajari bangunan dan struktur yang berhubungan dengan laut. Teknik kelautan perkembangan teknik sipil yang dikhususkan untuk mempelajari struktur-struktur yang berada di daerah garis pantai (coast line) maupun daerah lepas pantai (offshore), termasuk anjungan lepas pantai. Selain mempelajari struktur, teknik kelautan juga sebuah ilmu keteknikan yang mengaplikasikan ilmu teknik mesin, teknik elektro, dan teknik listrik dalam mengembangkan, membangun, dan mengoperasikan propulsikendaraan air dan kendaraan bawah air dan sistem terkait seperti sumber tenaga, permesinan, perpipaan, sistem kontrol, otomasi, dan sebagainya.",
+          "link":{
+            "website": "http://oe.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Teknik Perkapalan",
+          "desc": "Teknik Perkapalan adalah suatu disiplin ilmu teknik yang mempelajari sebuah sistem kerja kapal yang menyangkut perencanaan dan pembangunan sebuah kapal mulai dari bentuk badan kapal dan rencana umum, kebutuhan daya mesin, struktur dan stabilitas, serta pengoperasian kapal yang sudah jadi untuk memenuhi kebutuhan manusia dalam hal sarana transportasi. Ilmu teknik perkapalan juga diterapkan dalam perkembangan bahari/kelautan di Indonesia, antara lain digunakan sebagai transportasi, eksplorasi hidrokarbon laut, fishing (pemancingan, red), rekreasi laut, dan juga keamanan perairan Indonesia.",
+          "link":{
+            "website": "http://na.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "3",
+          "name": "Fisika",
+          "desc": "Program studi Fisika mengajak para mahasiswa untuk mempelajari gejala alam yang tidak hidup atau materi dalam lingkup ruang dan waktu. Para mahasiswa juga akan mempelajari perilaku dan sifat materi dalam bidang yang sangat beragam, mulai dari partikel submikroskopis yang membentuk segala materi hingga perilaku materi alam semesta sebagai satu kesatuan kosmos. Ilmu fisika mengambil peran penting sejak berabad-abad lalu, berkembang sejak zaman Galileo kemudian penemuan Newton mengenai gravitasi hingga Teori Relativitas Einstein. Saat ini ilmu fisika sangat mendukung perkembangan teknologi, industri, komunikasi, kerekayasaan, kimia, dan kedokteran. Fisika memiliki beberapa konsentransi peminatan, seperti Instrumentasi Elektronika, Geofisika, Fisika Medis, Fisika Nuklir dan Partikel, Fisika Material dan Terkondenisasi.",
+          "link":{
+            "website": "http://phy.itk.ac.id/",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    }
+  ]
+}
