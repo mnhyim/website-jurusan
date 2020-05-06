@@ -12,7 +12,7 @@
     <section class="section has-background-white-ter">
       <div class="columns">
         <div class="column" v-for="jurusans in data.jurusan" v-bind:key="jurusans.id">
-          <router-link v-bind:to="jurusans.link" v-bind:id="jurusans.id">
+          <router-link v-bind:to="jurusans.link">
             <card-jurusan v-bind:jurusan="jurusans"/>
           </router-link>
         </div>

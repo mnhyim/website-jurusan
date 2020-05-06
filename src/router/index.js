@@ -5,27 +5,28 @@ Vue.use(VueRouter)
   const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     meta: {title: 'Home'},
     component: () => import('../views/Home.vue')
   },
 
   {
     path: '/about',
-    name: 'About',
+    name: 'about',
     meta: {title: 'About'},
     component: () => import('../views/About.vue')
   },
 
   {
     path: '/berita',
-    name: 'Berita',
+    name: 'berita',
     meta: {title: 'Berita'},
     component: () => import('../views/Berita.vue')
   },
 
   {
     path: '/jurusan/:jurusan',
+    name: 'jurusan',
     meta: {title: 'Jurusan'},
     component:() => import('../views/Jurusan.vue')
   },

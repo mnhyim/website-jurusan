@@ -3,7 +3,7 @@
     <section class="section">
       <div class="container">
         <div class="top">
-          <h1 class="title is-2">{{data.jurusan[id].name}}</h1>
+          <h1 class="title is-2">{{data.jurusan[0].name}}</h1>
           <h2 class="subtitle is-5">{{data.jurusan[0].abbr}} adalah {{data.jurusan[0].name}}. {{data.jurusan[0].desc}}</h2>
         </div>
         <!-- kolom atas -->
@@ -37,9 +37,9 @@ import CardProdi from '@/components/CardProdi.vue'
 import DataJurusan from '@/data/jurusan.json'
 
 export default {
-  props:[
-    'id'
-  ],
+  props:{
+    id: Number
+  },
   components:{
     'tb-event' : TableEventJurusan,
     'card-prodi' : CardProdi
