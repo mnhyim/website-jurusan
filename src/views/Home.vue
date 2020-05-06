@@ -11,8 +11,10 @@
     </section>
     <section class="section has-background-white-ter">
       <div class="columns">
-        <div class="column" v-for="jurusan in data.jurusan" v-bind:key="jurusan.id">
-          <card-jurusan v-bind='jurusan'/>
+        <div class="column" v-for="jurusans in data.jurusan" v-bind:key="jurusans.id">
+          <router-link v-bind:to="jurusans.link" v-bind:id="jurusans.id">
+            <card-jurusan v-bind:jurusan="jurusans"/>
+          </router-link>
         </div>
       </div>
     </section>
@@ -20,15 +22,15 @@
 </template>
 
 <script>
-  import CardJurusan from '@/components/CardJurusan.vue'
-  import DataJurusan from '@/data/jurusan.json'
+  import CardJurusan from "@/components/CardJurusan.vue"
+  import DataJurusan from "@/data/jurusan.json"
 
   export default {
-    name: 'Home',
+    name: "Home",
     components: {CardJurusan},
     data: function() {
       return {
-        'card-jurusan' : CardJurusan,
+        "card-jurusan" : CardJurusan,
         data: DataJurusan
       }
     }

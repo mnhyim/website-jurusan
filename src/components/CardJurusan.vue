@@ -1,27 +1,22 @@
 <template>
-  <router-link :to='link'>
     <div class="card">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img :src="require(`@/assets/${image}`)" :alt="name">
+          <img :src="require(`@/assets/${jurusan.image}`)" :alt="jurusan.name">
         </figure>
       </div>
       <div class="card-content">
         <div class="content">
-          <h2 class="title is-5 has-text-centered has-text-link">{{ abbr }}</h2>
+          <h2 class="title is-5 has-text-centered has-text-link">{{ jurusan.abbr }}</h2>
         </div>
       </div>
     </div>
-  </router-link>
 </template>
 
 <script>
 export default {
   props: [
-    'id',
-    'abbr',
-    'image',
-    'link'
+    'jurusan'
   ],
   methods:{
     chgRoute:function(){
