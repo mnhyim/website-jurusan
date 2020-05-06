@@ -1,6 +1,5 @@
 <template>
   <section>
-    <h1 class="title is-4">Jadwal kegiatan {{'placeholder'}}</h1>
     <b-table :data="data" :columns="columns" bordered striped hoverable></b-table>
   </section>
 </template>

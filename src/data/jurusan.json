@@ -6,6 +6,7 @@
       "name": "Jurusan Matematika dan Teknologi Informasi",
       "desc": "JMTI memiliki 3 program studi yaitu Sistem Informasi, Informatika, dan Matematika.",
       "image": "logo_jmti.png",
+      "link": "/jurusan/jmti",
       "prodi": [
         {
           "id": "1",
@@ -42,7 +43,8 @@
       "abbr": "JTIP",
       "name": "JTIP adalah Teknologi Industri & Proses",
       "desc": "JTIP memiliki 4 program studi yaitu Teknik Mesin, Teknik Elektro, Teknik Kimia, dan Teknik Industri.",
-      "image":"logo_jtip",
+      "image":"logo_jtip.png",
+      "link": "/jurusan/jtip",
       "prodi": [
         {
           "id": "1",
@@ -88,6 +90,7 @@
       "name": "Jurusan Teknologi Sipil & Perencanaan",
       "desc": "JTSP memiliki 2 program studi yaitu Teknik Sipil dan Perencanaan Wilayah dan Kota.",
       "image": "logo_jtsp.png",
+      "link": "/jurusan/jtsp",
       "prodi": [
         {
           "id": "1",
@@ -115,6 +118,7 @@
       "name": "Jurusan Ilmu Kebumian & Lingkungan",
       "desc": "JIKL memiliki 2 program studi yaitu Teknik Material dan Metalurgi, dan Teknik Lingkungan.",
       "image": "logo_jikl.png",
+      "link": "/jurusan/jikl",
       "prodi": [
         {
           "id": "1",
@@ -142,6 +146,7 @@
       "name": "Jurusan Sains, Teknologi Pangan & Kemaritiman",
       "desc": "JSTPK memiliki 3 program studi yaitu Fisika, Teknik Perkapalan, dan Kelautan.",
       "image":"logo_jstpk.png",
+      "link": "/jurusan/jstpk",
       "prodi": [
         {
           "id": "1",
