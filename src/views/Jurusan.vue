@@ -1,32 +1,30 @@
 <template>
   <div class="jurusan">
     <section class="section">
-      <div class="container">
-        <div class="top">
-          <h1 class="title is-2">{{data.jurusan[id].name}}</h1>
-          <h2 class="subtitle is-5">{{data.jurusan[id].abbr}} adalah {{data.jurusan[id].name}}. {{data.jurusan[id].desc}}</h2>
+      <div class="top">
+        <h1 class="title is-2">{{data.jurusan[id].name}}</h1>
+        <h2 class="subtitle is-5">{{data.jurusan[id].abbr}} adalah {{data.jurusan[id].name}}. {{data.jurusan[id].desc}}</h2>
+      </div>
+      <!-- kolom atas -->
+      <div class="columns">
+        <div class="column">
+          <img :src="require(`@/assets/${data.jurusan[id].image}`)">
         </div>
-        <!-- kolom atas -->
-        <div class="columns">
-          <div class="column">
-            <img :src="require(`@/assets/${data.jurusan[id].image}`)">
-          </div>
-          <div class="column">
-            <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1>
-            <tb-event/>
-          </div>
+        <div class="column">
+          <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1>
+          <tb-event/>
         </div>
-        <!-- kolom bawah -->
-        <section class="section has-background-jmti-darker has-text-white">
-          <div class="container">
-            <div class="columns is-multiline is-vcentered is-centered">
-              <div class="column is-6" v-for="prodi in data.jurusan[id].prodi" v-bind:key="prodi.id">
-                <card-prodi v-bind="prodi"/>
-              </div>
+      </div>
+      <!-- kolom bawah -->
+      <section class="section has-background-jmti-darker">
+        <div class="container">
+          <div class="columns is-multiline is-vcentered is-centered">
+            <div class="column is-6" v-for="prodi in data.jurusan[id].prodi" v-bind:key="prodi.id">
+              <card-prodi v-bind="prodi"/>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </section>
   </div>
 </template>
@@ -47,6 +45,25 @@ export default {
       'data' : DataJurusan,
     }
   },
+  watch: {
+    '$route' () {
+      if (this.$route.path === '/jurusan/jmti') {
+        this.id = 0
+      }
+      else if (this.$route.path === '/jurusan/jtip') {
+        this.id = 1
+      }      
+      else if (this.$route.path === '/jurusan/jtsp') {
+        this.id = 2
+      }        
+      else if (this.$route.path === '/jurusan/jikl') {
+        this.id = 3
+      }        
+      else if (this.$route.path === '/jurusan/jstpk') {
+        this.id = 4
+      }  
+    }
+  }
 }
 </script>
 

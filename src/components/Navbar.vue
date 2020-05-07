@@ -1,5 +1,5 @@
 <template>
-  <b-navbar fixed-top 	>
+  <b-navbar fixed-top>
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img src="@/assets/logo.png" alt="Institut Teknologi Kalimantan">
@@ -9,12 +9,22 @@
       <b-navbar-item tag="router-link" :to="{ path: '/about' }">About</b-navbar-item>
       <b-navbar-item tag="router-link" :to="{ path: '/berita' }">Berita</b-navbar-item>
       <b-navbar-dropdown label="Jurusan" collapsible>
-        <b-navbar-item tag="router-link" :to="{ path: '/jurusan/jmti' }">JMTI</b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/jurusan/jtip' }">JTIP</b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/jurusan/jtsp' }">JTSP</b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/jurusan/jikl' }">JIKL</b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/jurusan/jstpk' }">JSTPK</b-navbar-item>
+        <b-navbar-item tag="router-link" v-for="item in data.jurusan" v-bind:key="item.id" :to="data.jurusan[item.id].link">
+          {{data.jurusan[item.id].abbr}}
+        </b-navbar-item>
       </b-navbar-dropdown>
     </template>
   </b-navbar>
 </template>
+
+<script>
+  import Data from '@/data/jurusan.json'
+  
+  export default {
+    data: function() {
+      return {
+        'data' : Data,
+      }
+    }
+  }
+</script>

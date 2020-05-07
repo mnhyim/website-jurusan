@@ -6,6 +6,9 @@
       "name": "Jurusan Matematika dan Teknologi Informasi",
       "desc": "JMTI memiliki 3 program studi yaitu Sistem Informasi, Informatika, dan Matematika.",
       "image": "logo_jmti.png",
+      "class-1": "has-background-jmti",
+      "class-2": "has-background-jmti-darker",
+      "class-3": "has-text-white",
       "link": "/jurusan/jmti",
       "prodi": [
         {
