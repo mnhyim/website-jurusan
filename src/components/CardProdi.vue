@@ -30,6 +30,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  .subtitle{
+    padding: 12px;
+    text-align: justify;
+  }
 </style>

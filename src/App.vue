@@ -52,6 +52,7 @@
     text-align: center;
     color: #2c3e50;
   }
+
   .has-bottom-border{
     padding-bottom: 8px;
     border-bottom: 3px solid white;
@@ -81,7 +82,6 @@
           background-color: $jikl-darker;
       }
   }
-
   .has-background-jtsp{
       background-color: $jtsp;
       &-darker{

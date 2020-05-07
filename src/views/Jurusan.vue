@@ -1,11 +1,11 @@
 <template>
-  <div class="jurusan">
+  <section class="section">
+    <div class="top">
+      <h1 class="title is-2">{{data.jurusan[id].name}}</h1>
+      <h2 class="subtitle is-5">{{data.jurusan[id].abbr}} adalah {{data.jurusan[id].name}}. {{data.jurusan[id].desc}}</h2>
+    </div>
+    <!-- kolom atas -->
     <section class="section">
-      <div class="top">
-        <h1 class="title is-2">{{data.jurusan[id].name}}</h1>
-        <h2 class="subtitle is-5">{{data.jurusan[id].abbr}} adalah {{data.jurusan[id].name}}. {{data.jurusan[id].desc}}</h2>
-      </div>
-      <!-- kolom atas -->
       <div class="columns">
         <div class="column">
           <img :src="require(`@/assets/${data.jurusan[id].image}`)">
@@ -15,18 +15,18 @@
           <tb-event/>
         </div>
       </div>
-      <!-- kolom bawah -->
-      <section class="section has-background-jmti-darker">
-        <div class="container">
-          <div class="columns is-multiline is-vcentered is-centered">
-            <div class="column is-6" v-for="prodi in data.jurusan[id].prodi" v-bind:key="prodi.id">
-              <card-prodi v-bind="prodi"/>
-            </div>
+    </section>
+    <!-- kolom bawah -->
+    <section class="section has-background-jmti-darker">
+      <div class="container">
+        <div class="columns is-multiline is-vcentered is-centered">
+          <div class="column is-6" v-for="prodi in data.jurusan[id].prodi" v-bind:key="prodi.id">
+            <card-prodi v-bind="prodi"/>
           </div>
         </div>
-      </section>
+      </div>
     </section>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -70,6 +70,5 @@ export default {
 <style scoped>
   .top{
     text-align: left;
-    margin: 0 0 24px 0;
   }
 </style>
