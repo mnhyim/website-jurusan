@@ -1,7 +1,7 @@
 <template>
   <div class="card">
-    <header class="card-header">
-      <p class="card-header-title">{{berita.title}}</p>
+    <header class="card-header has-background-jmti">
+      <p class="card-header-title has-text-white">{{berita.title}}</p>
     </header>
     <div class="card-content">
       <figure class="image is-3by2">
@@ -32,5 +32,8 @@ export default {
   }
   .card-content figure{
     margin-bottom: 14px;
+  }
+  .image img{
+    border: 4px solid rgba(0, 93, 175, 0.212);
   }
 </style>

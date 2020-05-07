@@ -1,7 +1,7 @@
 <template>
   <div class="berita">
     <carousel-berita v-bind:berita="data.berita"/>
-    <section  class="section">
+    <section  class="section has-background-jmti-darker">
       <div class="columns is-multiline">
         <div class="column" v-for="item in data.berita" v-bind:key="item.id">
           <card-berita v-bind:berita="item"/>
