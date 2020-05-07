@@ -2,9 +2,12 @@
   <div class="about">
     <section class="hero is-large">
       <div class="hero-body bgimage">
-        <div class="overlay">
-          <h1 class="title has-text-white">Institut Teknologi Kalimantan</h1>
+        <div class="overlay  has-text-centered">
+          <h1 class="title has-text-white">
+            Institut Teknologi Kalimantan
+          </h1>
           <img src="@/assets/logo_itk.png" alt="Logo ITK" width="100px">
+
         </div>
       </div>
     </section>
