@@ -4,7 +4,7 @@
       <p class="card-header-title has-text-white">{{berita.title}}</p>
     </header>
     <div class="card-content">
-      <figure class="image is-3by2">
+      <figure class="image is-3by2 gmbr">
         <img v-bind:src="require(`@/assets/berita/${berita.images}`)" />
       </figure>
       <p>{{berita.berita}}</p>
@@ -21,7 +21,7 @@ export default {
   ]
 }
 </script>
-<style>
+<style scoped>
   .card-header{
     height:125px !important;
   }
@@ -33,7 +33,7 @@ export default {
   .card-content figure{
     margin-bottom: 14px;
   }
-  .image img{
-    border: 4px solid rgba(0, 93, 175, 0.212);
+  .gmbr img{
+    border: 8px solid rgba(0, 93, 175, 0.5);
   }
 </style>

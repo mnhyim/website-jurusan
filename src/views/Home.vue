@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section class="hero is-fullheight">
+    <section class="hero is-large">
       <div class="hero-body bgimage">
         <div class="container has-text-centered">
           <h1 class="title has-text-white">

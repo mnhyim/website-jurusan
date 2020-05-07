@@ -1,7 +1,7 @@
 <template>
   <div class="berita">
-    <carousel-berita v-bind:berita="data.berita"/>
-    <section  class="section has-background-jmti-darker">
+    <carousel-berita v-bind:berita="data.berita" class="crsl"/>
+    <section  class="section">
       <div class="columns is-multiline">
         <div class="column" v-for="item in data.berita" v-bind:key="item.id">
           <card-berita v-bind:berita="item"/>
@@ -29,3 +29,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.crsl{
+  border-bottom: 8px solid #272944;
+}
+</style>
