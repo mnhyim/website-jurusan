@@ -4,23 +4,23 @@
       <div class="container">
         <div class="top">
           <h1 class="title is-2">{{data.jurusan[id].name}}</h1>
-          <h2 class="subtitle is-5">{{data.jurusan[0].abbr}} adalah {{data.jurusan[0].name}}. {{data.jurusan[0].desc}}</h2>
+          <h2 class="subtitle is-5">{{data.jurusan[id].abbr}} adalah {{data.jurusan[id].name}}. {{data.jurusan[id].desc}}</h2>
         </div>
         <!-- kolom atas -->
         <div class="columns">
           <div class="column">
-            <img src="@/assets/logo_jmti.png">
+            <img :src="require(`@/assets/${data.jurusan[id].image}`)">
           </div>
           <div class="column">
-            <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[0].abbr}}</h1>
+            <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1>
             <tb-event/>
           </div>
         </div>
         <!-- kolom bawah -->
-        <section class="section has-background-dark has-text-white">
+        <section class="section has-background-jmti-darker has-text-white">
           <div class="container">
             <div class="columns is-multiline is-vcentered is-centered">
-              <div class="column is-6" v-for="prodi in data.jurusan[0].prodi" v-bind:key="prodi.id">
+              <div class="column is-6" v-for="prodi in data.jurusan[id].prodi" v-bind:key="prodi.id">
                 <card-prodi v-bind="prodi"/>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default {
       'id' : 0,
       'data' : DataJurusan,
     }
-  }
+  },
 }
 </script>
 

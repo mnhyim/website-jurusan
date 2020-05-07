@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card-content">
+    <div class="card-content has-background-jmti">
       <p class="title is-4 has-text-white has-bottom-border">{{ name }}</p>
       <p class="subtitle is-6 has-text-white">{{ desc }}</p>
     </div>
