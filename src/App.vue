@@ -27,7 +27,7 @@
 
 <style lang="scss">
   // Customize Bulma here
-  $primary: #6775ef;
+  $primary: #335da1;
   $jmti: #005CAF;
   $jmti-darker: darken($color: $jmti, $amount: 8);
   $jtip: #cc565a;
