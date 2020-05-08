@@ -31,7 +31,7 @@
     data: function() {
       return {
         "card-jurusan" : CardJurusan,
-        data: DataJurusan
+        "data": DataJurusan
       }
     }
   }
@@ -40,7 +40,7 @@
 <style scoped>
   .bgimage{
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/cover.jpg") #005CAF no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/cover.jpg") #005CAF no-repeat center;
     background-size: cover;
     min-height: 50vh;
     max-width: 100vw;

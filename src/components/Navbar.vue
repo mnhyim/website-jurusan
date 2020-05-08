@@ -1,5 +1,5 @@
 <template>
-  <b-navbar fixed-top>
+  <b-navbar fixed-top transparent >
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img src="@/assets/logo.png" alt="Institut Teknologi Kalimantan">
