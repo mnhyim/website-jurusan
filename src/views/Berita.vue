@@ -4,7 +4,7 @@
     <section  class="section">
       <div class="columns is-multiline">
         <div class="column" v-for="item in data.berita" v-bind:key="item.id">
-          <card-berita v-bind:berita="item"/>
+          <card-berita v-bind:beritabs="item"/>
         </div>
       </div>
     </section>

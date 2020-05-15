@@ -22,7 +22,6 @@
       }
     }
   }
-
 </script>
 
 <style lang="scss">
@@ -88,4 +87,4 @@
           background-color: $jtsp-darker;
       }
   }  
-</style>>
+</style>
