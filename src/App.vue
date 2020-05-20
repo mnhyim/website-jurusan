@@ -16,11 +16,33 @@
       'v-navbar' : Navbar,
       'v-footer' : Footer
     },
+    data: function() {
+      return{
+        'id': 0
+      }
+    },
     watch: {
       '$route' (to) {
         document.title = to.meta.title
+        // Kalo yang ini buat kasih id yang pas ketika ganti path tapi dan ganti component
+        // Contohnya pas ke dari komponen Home ke komponen Jurusan
+        if (this.$route.path === '/jurusan/jmti') {
+          this.id = 0
+        }
+        else if (this.$route.path === '/jurusan/jtip') {
+          this.id = 1
+        }      
+        else if (this.$route.path === '/jurusan/jtsp') {
+          this.id = 2
+        }        
+        else if (this.$route.path === '/jurusan/jikl') {
+          this.id = 3
+        }        
+        else if (this.$route.path === '/jurusan/jstpk') {
+          this.id = 4
+        }  
       }
-    }
+    },
   }
 </script>
 

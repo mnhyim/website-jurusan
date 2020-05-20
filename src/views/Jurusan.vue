@@ -8,7 +8,7 @@
     <section class="section">
       <div class="columns">
         <div class="column">
-          <img :src="require(`@/assets/${data.jurusan[id].image}`)">
+          <img v-bind:src="require(`@/assets/${data.jurusan[id].image}`)">
         </div>
         <div class="column">
           <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1>
@@ -41,11 +41,13 @@ export default {
   },
   data: function() {
     return {
-      'id' : 0,
+      'id' : this.$parent.id,
       'data' : DataJurusan,
     }
   },
   watch: {
+    // Yang ini buat kasih id yang pas ketika ganti path tapi gk ganti component
+    // Contohnya pas pake dropdown navbarnya
     '$route' () {
       if (this.$route.path === '/jurusan/jmti') {
         this.id = 0
