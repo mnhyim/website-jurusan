@@ -6,7 +6,7 @@
           <h1 class="title has-text-white">
             Institut Teknologi Kalimantan
           </h1>
-          <img src="@/assets/logo_itk.png" alt="Logo ITK" width="100px">
+          <img src="@/assets/logo-itk-1.png" alt="Logo ITK" width="100px">
 
         </div>
       </div>
@@ -42,7 +42,7 @@
   }
   .bgimage{
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("../assets/dies.jpeg") #005CAF no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("../assets/cover-about.jpeg") #005CAF no-repeat center;
     background-size: cover;
     max-height: 45vw;
     max-width: 100vw;

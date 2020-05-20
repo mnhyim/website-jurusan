@@ -5,10 +5,10 @@
       "abbr": "JMTI",
       "name": "Jurusan Matematika dan Teknologi Informasi",
       "desc": "JMTI memiliki 3 program studi yaitu Sistem Informasi, Informatika, dan Matematika.",
-      "image": "logo_jmti.png",
-      "class-1": "has-background-jmti",
-      "class-2": "has-background-jmti-darker",
-      "class-3": "has-text-white",
+      "image": "jurusan/logo_jmti.png",
+      "classBg": "has-background-jmti",
+      "classDark": "has-background-jmti-darker",
+      "classText": "has-text-white",
       "link": "/jurusan/jmti",
       "prodi": [
         {
@@ -46,7 +46,10 @@
       "abbr": "JTIP",
       "name": "Jurusan Teknologi Industri & Proses",
       "desc": "JTIP memiliki 4 program studi yaitu Teknik Mesin, Teknik Elektro, Teknik Kimia, dan Teknik Industri.",
-      "image":"logo_jtip.png",
+      "image":"jurusan/logo_jtip.png",
+      "classBg": "has-background-jtip",
+      "classDark": "has-background-jtip-darker",
+      "classText": "has-text-white",
       "link": "/jurusan/jtip",
       "prodi": [
         {
@@ -92,7 +95,10 @@
       "abbr": "JTSP",
       "name": "Jurusan Teknologi Sipil & Perencanaan",
       "desc": "JTSP memiliki 2 program studi yaitu Teknik Sipil dan Perencanaan Wilayah dan Kota.",
-      "image": "logo_jtsp.png",
+      "image": "jurusan/logo_jtsp.png",
+      "classBg": "has-background-jtsp",
+      "classDark": "has-background-jtsp-darker",
+      "classText": "has-text-white",
       "link": "/jurusan/jtsp",
       "prodi": [
         {
@@ -120,7 +126,10 @@
       "abbr": "JIKL",
       "name": "Jurusan Ilmu Kebumian & Lingkungan",
       "desc": "JIKL memiliki 2 program studi yaitu Teknik Material dan Metalurgi, dan Teknik Lingkungan.",
-      "image": "logo_jikl.png",
+      "image": "jurusan/logo_jikl.png",
+      "classBg": "has-background-jikl",
+      "classDark": "has-background-jikl-darker",
+      "classText": "has-text-white",
       "link": "/jurusan/jikl",
       "prodi": [
         {
@@ -148,7 +157,10 @@
       "abbr": "JSTPK",
       "name": "Jurusan Sains, Teknologi Pangan & Kemaritiman",
       "desc": "JSTPK memiliki 3 program studi yaitu Fisika, Teknik Perkapalan, dan Kelautan.",
-      "image":"logo_jstpk.png",
+      "image":"jurusan/logo_jstpk.png",
+      "classBg": "has-background-jstpk",
+      "classDark": "has-background-jstpk-darker",
+      "classText": "has-text-white",
       "link": "/jurusan/jstpk",
       "prodi": [
         {

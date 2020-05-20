@@ -17,11 +17,11 @@
       </div>
     </section>
     <!-- kolom bawah -->
-    <section class="section has-background-jmti-darker">
+    <section class="section" v-bind:class="data.jurusan[id].classDark">
       <div class="container">
         <div class="columns is-multiline is-vcentered is-centered">
           <div class="column is-6" v-for="prodi in data.jurusan[id].prodi" v-bind:key="prodi.id">
-            <card-prodi v-bind="prodi"/>
+            <card-prodi v-bind:prodi="prodi" v-bind:jurusan="data.jurusan[id]"/>
           </div>
         </div>
       </div>
@@ -46,8 +46,7 @@ export default {
     }
   },
   watch: {
-    // Yang ini buat kasih id yang pas ketika ganti path tapi gk ganti component
-    // Contohnya pas pake dropdown navbarnya
+    // Yang ini kalo ganti path tapi komponennya sama, contohnya pas dihalaman jurusan terus navigasi pake dropdown navbar
     '$route' () {
       if (this.$route.path === '/jurusan/jmti') {
         this.id = 0

@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div id="app">
     <v-navbar/>
     <transition name="fade">
@@ -23,9 +23,12 @@
     },
     watch: {
       '$route' (to) {
-        document.title = to.meta.title
-        // Kalo yang ini buat kasih id yang pas ketika ganti path tapi dan ganti component
-        // Contohnya pas ke dari komponen Home ke komponen Jurusan
+        document.title = to.meta.title + ' - Institut Teknologi Kalimantan'
+        // Ini jalan kalo ganti path dan reload component pada router-viewnya
+        // Contohnya dari component home klik buat ke component jurusan 
+        // Otomatis dia bakal hapus komponen home terus naruh komponent jurusan, maka kode ini bisa jalan
+        // Kalo path nya berubah tetapi componentnya gk ke reload, kode ini gbs jalan
+        // Ref : https://github.com/vuejs/vue-router/issues/1490
         if (this.$route.path === '/jurusan/jmti') {
           this.id = 0
         }

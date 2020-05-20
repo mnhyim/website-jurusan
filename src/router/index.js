@@ -33,11 +33,6 @@ Vue.use(VueRouter)
   },
 
   {
-    path:'/test',
-    component:()=> import('../views/test.vue')
-  },
-
-  {
     path: '*',
     name: '404',
     meta: {title: 'Error 404'},
