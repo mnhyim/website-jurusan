@@ -3,9 +3,10 @@
     <section class="hero is-large">
       <div class="hero-body bgimage">
         <div class="container has-text-centered">
-          <h1 class="title has-text-white">
+          <h1 class="title has-text-white is-size-4 ">
             Institut Teknologi Kalimantan
           </h1>
+          <h2 class="has-text-grey-light is-size-7 has-text-weight-light is-family-monospace">{{countJrsPrd[0]}} Jurusan - {{countJrsPrd[1]}} Program Studi</h2>
         </div>
       </div>
     </section>
@@ -33,6 +34,18 @@
         "card-jurusan" : CardJurusan,
         "data": DataJurusan
       }
+    },
+    computed: {
+      countJrsPrd: function () {
+        var i, j, p = 0, x = 0;
+        for (i = 0; i < this.data.jurusan.length; i++) {
+          for (j = 0; j < this.data.jurusan[i].prodi.length; j++){
+            p += 1
+          }
+          x += 1
+        }
+        return [x,p]
+      },
     }
   }
 </script>
