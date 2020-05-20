@@ -39,6 +39,14 @@
           }
           
         }
+      ],
+      "jadwal":[
+        { "id": 1, "event_name": "Makrab IF", "date": "12-04-2020" },
+        { "id": 2, "event_name": "Prodi Talk SI", "date": "14-04-2020" },
+        { "id": 3, "event_name": "Kuliah Lapangan Metik", "date": "15-04-2020" },
+        { "id": 4, "event_name": "Talk Show JMTI", "date": "18-04-2020" },
+        { "id": 5, "event_name": "Seminar IF", "date": "22-04-2020" },
+        { "id": 6, "event_name": "Syukuran Wisuda", "date": "28-04-2020" }
       ]
     },
     {
@@ -88,6 +96,13 @@
             "instagram": "https://instagram.com"
           }
         }
+      ],
+      "jadwal":[
+        { "id": 1, "event_name": "Prodi Talk Mesin", "date": "12-04-2020" },
+        { "id": 2, "event_name": "Makrab Elektro", "date": "14-04-2020" },
+        { "id": 3, "event_name": "Kuliah Lapangan Mesin", "date": "15-04-2020" },
+        { "id": 4, "event_name": "Talk Show Industri", "date": "18-04-2020" },
+        { "id": 5, "event_name": "Seminar Teknik Kimia", "date": "22-04-2020" }
       ]
     },
     {
@@ -119,6 +134,12 @@
             "instagram": "https://instagram.com"
           }
         }
+      ],
+      "jadwal":[
+        { "id": 1, "event_name": "Kuliah Lapangan Teknik Sipil", "date": "12-04-2020" },
+        { "id": 2, "event_name": "Makrab PWK", "date": "14-04-2020" },
+        { "id": 3, "event_name": "Seminar Teknik Sipil", "date": "22-04-2020" },
+        { "id": 4, "event_name": "Syukuran Wisuda", "date": "23-04-2020" }
       ]
     },
     {
@@ -150,13 +171,19 @@
             "instagram": "https://instagram.com"
           }
         }
+      ],
+      "jadwal":[
+        { "id": 1, "event_name": "Prodi Talk Teknik Lingkungan", "date": "12-04-2020" },
+        { "id": 2, "event_name": "Makrab TMM", "date": "14-04-2020" },
+        { "id": 3, "event_name": "Syukuran Wisuda", "date": "15-04-2020" },
+        { "id": 4, "event_name": "HUT HMTL", "date": "22-04-2020" }
       ]
     },
     {
       "id": "4",
       "abbr": "JSTPK",
       "name": "Jurusan Sains, Teknologi Pangan & Kemaritiman",
-      "desc": "JSTPK memiliki 3 program studi yaitu Fisika, Teknik Perkapalan, dan Kelautan.",
+      "desc": "JSTPK memiliki 3 program studi yaitu Fisika, Teknik Perkapalan, dan Teknik Kelautan.",
       "image":"jurusan/logo_jstpk.png",
       "classBg": "has-background-jstpk",
       "classDark": "has-background-jstpk-darker",
@@ -190,6 +217,11 @@
             "instagram": "https://instagram.com"
           }
         }
+      ],
+      "jadwal":[
+        { "id": 1, "event_name": "Prodi Talk Teknik Perkapalan", "date": "12-04-2020" },
+        { "id": 2, "event_name": "Seminar Nasional Fisika", "date": "14-04-2020" },
+        { "id": 3, "event_name": "Kuliah Lapangan Teknik Kelautan", "date": "22-04-2020" }
       ]
     }
   ]

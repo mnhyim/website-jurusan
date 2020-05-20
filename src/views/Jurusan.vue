@@ -7,12 +7,12 @@
     <!-- kolom atas -->
     <section class="section">
       <div class="columns">
-        <div class="column">
+        <div class="column is-5">
           <img v-bind:src="require(`@/assets/${data.jurusan[id].image}`)">
         </div>
-        <div class="column">
+        <div class="column is-7">
           <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1>
-          <tb-event/>
+          <tb-event v-bind:jadwal="data.jurusan[id].jadwal" v-bind:x="data.jurusan[id].classBg"/>
         </div>
       </div>
     </section>
