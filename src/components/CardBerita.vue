@@ -25,6 +25,11 @@ export default {
   .card-header{
     height:125px !important;
   }
+  .card-header-title{
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
   .card-content{
     height:400px !important;
     overflow: auto;
@@ -34,6 +39,6 @@ export default {
     margin-bottom: 14px;
   }
   .gmbr img{
-    border: 8px solid rgba(0, 93, 175, 0.5);
+    border: 4px solid rgba(0, 93, 175, 0.24);
   }
 </style>

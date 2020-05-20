@@ -2,24 +2,80 @@
   "berita": [
     {
       "id" : 0,
-      "images": "berita_1.jpg",
+      "images": "berita-0.jpg",
+      "link": "https://itk.ac.id/mahasiswa-itk-raih-2-juara-kompetisi-lkti/",
+      "title" : "Mahasiswa ITK Raih 2 Juara Kompetisi LKTI",
+      "berita" : "ITK News- M. Nurhidayatur Rozikin Mahasiswa Program Studi Material dan Metalurgi dan  Zavania Nadira Mahasiswa Program Studi Teknik Kimia Institut Teknologi Kalimantan berhasil mendapatkan juara 1 dan juara harapan 2  Pada Kompetisi Lomba Karya Tulis Ilmiah Mahasiswa. Dengan mengusung  tema “Peningkatan Suara Pemilih Muda Pada Pilkada Balikpapan 2020”, ajang LKTI ini adalah suatu bentuk inovasi terkait meningkatkan suara pemilih muda di Balikpapan karena tingkat partisipasi pemilih di Balikpapan sedikit dan kurang, terutama menambah wawasan di bidang pemilu bagi pemilih pemula. Kegiatan lomba diawali dengan seleksi ide dan gagasan, setelah itu lima besar ide terbaik di undang ke KPU (Komisi Pemilihan Umum) Kota Balikpapan untuk mempresentasikannya dengan juru dari ketua KPU, dari pihak dosen universitas, Dari Pers/Koran, kemudian diberikan waktu 15 menit presentasi dan 15 menit tanya jawab untuk presentasi gagasan."
+    },
+    {
+      "id" : 1,
+      "images": "berita-1.jpg",
+      "link": "https://itk.ac.id/kristin-nova-handayati-wisudawan-terbaik-itk-dengan-ipk-3-85/",
+      "title" : "KRISTIN NOVA HANDAYATI, WISUDAWAN TERBAIK ITK DENGAN IPK 3.85",
+      "berita" : "Biasa disebut Kristin, Mahasiswa Institut Teknologi Kalimantan Program Studi Matematika Angkatan 2016 ini patut berbangga. Bagaimana tidak ia menjadi lulusan terbaik periode Maret 2020. Wisudawan kelahiran Samarinda, 15 November 1998 ini bukan hanya meraih nilai IPK 3.85 dan masa studi 3 tahun 5 bulan melainkan segudang prestasi yang telah di dapatkannya seperti Mahasiswa Prodi Matematika Terbaik 2016/2017, Finalis Essay ISSC UGM 2017, Juara 2 Mahasiswa Berprestasi ITK 2018, Juara 3 Mahasiswa Berprestasi ITK 2019, Mahasiswa Berprestasi Bidang Akademik Program Studi 2019. Kristin mengungkapkan rasa terima kasihnya kepada Tuhan, Orang Tua, Dosen dan pihak yang telah mendukungnya selama ini, ia pun berharap semoga ITK untuk kedepannya menjadi perguruan tinggi terbaik di Indonesia dan banyak melahirkan alumni yang berkualitas dan kompeten serta semoga dengan kehadiran ITK dapat membawa dampak positif bagi pembangunan Indonesia khususnya di Kalimantan Timur."
+    },
+    {
+      "id" : 2,
+      "images": "berita-2.jpg",
+      "link": "https://itk.ac.id/pengabdian-masyarakat-penjernihan-air-tanpa-menggunakan-bahan-kimia-oleh-teknik-kimia-itk/",
+      "title" : "Pengabdian Masyarakat “Penjernihan Air Tanpa Menggunakan Bahan Kimia” Oleh Teknik Kimia ITK",
+      "berita" : "Pengabdian Masyarakat yang dilaksanakan oleh Mahasiswa Teknik Kimia Institut Teknologi Kalimantan merupakan rangkain acara CHLORINE 2019 (Chemical Engineering In Extraordinary Event) yang di agenda setahun sekali dan pertama kalinya diselenggarakan oleh program studi Teknik Kimia. Rangkaian acara ini dilaksanakan pada 7 Februari 2020 di Institut Teknologi Kalimantan dengan menghadirkan pemateri berkompeten Dr. Eng. Lusi Ernawati, S.T., M.Sc. selaku Dosen Teknik Kimia Institut Teknologi Kalimantan. Mengusung tema bertajuk “Solusi Penanganan Limbah Rumah Tangga dan Pembuatan Brownies, Yoghurt dan Cokelat menggunakan Bahan Dasar Tempe”, pengabdian masyarakat ini diikuti ibu-ibu sekitar 200 Orang. Maulida sebagai ketua acara pengabdian Masyarakat menuturkan bahwa pengabdian masyarakat ini sangat penting bagi ibu-ibu di lingkungan Institut Teknologi Kalimantan."
+    },
+    {
+      "id" : 3,
+      "images": "berita-3.jpg",
+      "link": "https://itk.ac.id/sambut-ikn-baru-jtsp-inisiasi-kerjasama-internasional-dengan-technische-universitas-munchen-jtspjuara/",
+      "title" : "Sambut IKN baru, JTSP inisiasi kerjasama Internasional dengan Technische Universitas Munchen #JTSPJuara",
+      "berita" : "Balikpapan – Dengan ditetapkannya Kalimantan Timur sebagai Ibu Kota Negara (IKN) berdampak positif terhadap keberadaan Institut Teknologi Kalimantan (ITK) sebagai perguruan tinggi negeri  terdekat dengan lokasi IKN. Salah satunya adalah ketertarikan Prof. Dr. Ir. Walter T. de Vries pada ITK yang membuahkan kerjasama Internasional antara Jurusan Teknik Sipil dan Perencanaan ITK bersama Land Management Department of Aerospace and Geodesy, Technische Universitas Munchen (TUM). Memorandum of Agreement (MoA) telah disepakati kedua belah pihak pada Rabu, 19 Februari 2020 bertempat di Auditorium ITK. Disaksikan langsung oleh  Prof. Ir. Budi Santosa Purwokartiko, Ph.D selaku Rektor Institut Teknologi Kalimantan dan ditandatangani oleh Nurul Widiastuti, S.Si., M.Si., Ph.D selaku Wakil Rektor bidang Akademik ITK beserta Andika Ade Indra Saputra S.T., M.T. selaku Ketua Jurusan Teknik Sipil dan Perencanaan Wilayah dan Kota menjadikan awal kerjasama bagi kedua belah pihak dalam bidang Pendidikan, penelitian dan pengabdian masyarakat."
+    },
+    {
+      "id" : 4,
+      "images": "berita-4.jpg",
       "link": "https://itk.ac.id/bayaruddin-s-t-m-t-m-sc-dosen-teknik-sipil-yang-menjadi-perwakilan-itk-dalam-program-bridging-di-taiwan/",
       "title" : "Bayaruddin., S.T.,M.T., M.Sc Dosen Teknik Sipil yang Menjadi Perwakilan ITK dalam Program Bridging di Taiwan",
       "berita" : "Taiwan – Diakhir tahun 2019, Bayaruddin., S.T.,M.T., M.Sc berhasil mewakili Institut Teknologi Kalimantan (ITK) sebagai partisipan dalam program Briding di Taiwan bersama 20 partisipan lainnya dari seluruh Universitas di Indonesia. Secara umum, program Bridging merupakan hubungan kemitraan formal antar dua lembaga yang memberikan peluang bagi siswa di lembaga tersebut untuk belajar atau mendapatkan pengalaman di lembaga lain. Biasanya, program Bridging diberikan kepada mahasiswa sarjana atau pascasarjana yang sedang belajar untuk melanjutkan kuliah. Bridging program adalah kelanjutan program PKBI atau Peningkatan Kompetensi Bahasa Inggris oleh Ditjen Sumber Daya Iptek dan Dikti (Ditjen Dikti) Kemenristekdikti yang dilakukan pada tahun 2018/2019. Dari program PKBI terpilih beberapa dosen dengan IELTS yang cukup tinggi agar dapat melakukan Bridging ke negara-negara tujuan, untuk partisipan dari jurusan teknik mayoritas akan dikirim ke Negara Taiwan."
     },
     {
-      "id" : 1,
-      "images": "berita_2.jpg",
-      "link": "https://itk.ac.id/bayaruddin-s-t-m-t-m-sc-dosen-teknik-sipil-yang-menjadi-perwakilan-itk-dalam-program-bridging-di-taiwan/",
-      "title" : "Dosen muda, Gusti Umindya Nur Tajalla, S.T., M.T., dan mahasiswi Ansita Fitri Budi Hartanti dari Teknik Material dan Metalurgi telah mengikuti kegiatan Sakura Science Exchange Program (SSEP)",
-      "berita" : "Sakura Science Exchange Program merupakan program yang ditawarkan oleah Japan and Science Technology Agency (JST) yang bertujuan untuk memberikan kesempatan kepada mahasiswa, dosen, dan peneliti muda di seluruh negara Asia untuk mempelajari teknologi yang sedang berkembang di Jepang di bidang sains. Sejak tahun 2014, sekitar 26.000 peserta telah aktif berpartisipasi dalam kegiatan ini. Selain itu, pengalaman ini diharapkan dapat menciptakan kolaborasi riset dan program pendidikan sehingga hubungan baik antar negara dapat terjalin dengan baik. Dalam kesempatan ini, saya dan mahasiswi saya, Ansita Fitri Budi Hartanti dari Program Studi Teknik Material dan Metalurgi berpartisipasi aktif dalam kegiatan ini."
+      "id" : 5,
+      "images": "berita-5.jpg",
+      "link": "https://itk.ac.id/ikut-serta-dalam-kerjasama-internasional-jtsp-menandatangani-memorandum-of-agreement-moa-building-with-nature-bwn/",
+      "title" : "Ikut Serta dalam Kerjasama Internasional, JTSP Menandatangani Memorandum of Agreement (MoA) Building with Nature (BwN) #JTSPJuara",
+      "berita" : "Bali – Jurusan Teknik Sipil dan Perencanaan (JTSP) Institut Teknologi Kalimatan melakukan penandatangan Memorandum of Agreement (MoA) Building with Nature (BwN) pada Selasa, 28 Januari 2020 di Hotel Paragon Jimbaran, Bali. Ketua Jurusan Teknik Sipil dan Perencanaan (JTSP) Andika Ade Indra Saputra S.T., M.T hadir mewakili Institut Teknologi Kalimantan dalam rangka penandatanganan MoA bersama dengan 4 perguruan tinggi negeri lainnya. Diharapkan dengan ikutsertanya Jurusan Teknik Sipil dan Perencanaan (JTSP) Institut Teknologi Kalimatan dalam menjalin kerjasama Internasional bersama Wetlands International dan EcoShape dalam project Building with Nature (BwN) dapat menjadi symbol dan membuka peluang untuk JTSP lebih maju dan unggul #JTSPJuara"
     },
     {
-      "id" : 2,
-      "images": "berita_3.jpg",
-      "link": "https://itk.ac.id/bayaruddin-s-t-m-t-m-sc-dosen-teknik-sipil-yang-menjadi-perwakilan-itk-dalam-program-bridging-di-taiwan/",
-      "title" : "Sambut IKN baru, JTSP inisiasi kerjasama Internasional dengan Technische Universitas Munchen #JTSPJuara",
-      "berita" : "Bali – Jurusan Teknik Sipil dan Perencanaan (JTSP) Institut Teknologi Kalimatan melakukan penandatangan Memorandum of Agreement (MoA) Building with Nature (BwN) pada Selasa, 28 Januari 2020 di Hotel Paragon Jimbaran, Bali. Ketua Jurusan Teknik Sipil dan Perencanaan (JTSP) Andika Ade Indra Saputra S.T., M.T hadir mewakili Institut Teknologi Kalimantan dalam rangka penandatanganan MoA bersama dengan 4 perguruan tinggi negeri lainnya."
+      "id" : 6,
+      "images": "berita-6.jpg",
+      "link": "https://itk.ac.id/pertama-kali-institut-teknologi-kalimantan-melakukan-kerjasama-internasional-dengan-saga-university-jepang/",
+      "title" : "PERTAMA KALI, INSTITUT TEKNOLOGI KALIMANTAN MELAKUKAN KERJASAMA INTERNASIONAL DENGAN SAGA UNIVERSITY, JEPANG",
+      "berita" : "Balikpapan – Tepat pada tanggal 8 Januari 2019, Institut Teknologi Kalimantan (ITK) untuk pertama kalinya melakukan kerjasama internasional, yaitu dengan Saga University, Jepang. Kerjasama ini tertuang di dalam Memorandum of Agreement (MoA) yang telah ditandatangani langsung oleh Wakil Rektor Bidang Akademik ITK, Nurul Widiastuti, Ph.D dan Dekan dari Faculty of Science and Engineering, Saga University, Prof. Dr. Ichihiko Toyoda. Kerjasama ini diharapkan dapat meningkatkan kegiatan akademik dan penelitian para civitas akademika ITK, sehingga dapat menambah pengetahuan dan pengalaman.Kegiatan dilanjutkan dengan kuliah tamu berjudul “Conversion of Chemical Energy to Electrical Energy Using Bioelectrochemical Techniques” disampaikan oleh Prof. Dr. Masato Tominaga, selaku Head of Chemistry and Applied Chemistry Department, Saga University. Kuliah tamu ini bertujuan untuk memperluas wawasan civitas akademika terkait pengaplikasian elektrokimia pada konversi energi listrik."
+    },
+    {
+      "id" : 7,
+      "images": "berita-7.jpg",
+      "link": "https://itk.ac.id/gedung-perkuliahan-terpadu-itk-2019/",
+      "title" : "Gedung Perkuliahan Terpadu ITK 2019",
+      "berita" : "ITK News- Institut Teknologi Kalimantan (ITK) merupakan Perguruan Tinggi Negeri Baru (PTNB) yang diresmikan pada 6 Oktober 2014 melalui Perpres No. 125 Tahun 2014. Pembangunan gedung ITK dimulai pada tahun 2012 dengan total lahan yang direncanakan seluas 300 Ha yang di dalamnya terdapat 5 cluster fakultas. Berdasarkan dokumen masterplan pembangunan Gedung ITK, di masing – masing cluster terdiri dari 2 gedung kuliah bersama dan 5 gedung jurusan. Pada 2019 gedung E, F, dan G telah berdiri kokoh di tanah Kalimantan dan harapan selanjutnya ITK akan membangun Laboratorium Terpadu untuk memberikan fasilitas terbaik kepada mahasiswa.  ”Walau kami minim pengalaman, tapi hari ini kami membuktikan apa yang menjadi harapan telah menjadi kenyataan, terima kasih SBSN berkah pendidikan di bumi Kalimantan” Tegas Bapak Andika Ade Indra Saputra S.T., M.T. selaku Pejabat Pembuat Komitmen dan Koordinator Jurusan Teknik Sipil dan Perencanaan"
+    },
+    {
+      "id" : 8,
+      "images": "berita-8.jpg",
+      "link": "https://itk.ac.id/itk-mengadakan-sosialisasi-sistem-seleksi-masuk-perguruan-tinggi-negeri-tahun-2020/",
+      "title" : "ITK Mengadakan Sosialisasi Sistem Seleksi Masuk Perguruan Tinggi Negeri Tahun 2020",
+      "berita" : "Balikpapan – Senin, 9 Desember 2019 dilaksanakan sosialisasi sistem seleksi masuk perguruan tinggi negeri tahun 2020 oleh Institut Teknologi Kalimantan yang bertempat di Ballroom Grand Jatra Hotel. Acara ini dihadiri oleh perwakilan siswa SMA dan guru BK di Kalimantan Timur serta Koor Prodi dan Kepala Jurusan Institut Teknologi Kalimantan. Pada tahun 2020, pendaftaran SNMPTN, UTBK, dan SBMPTN harus memiliki akun di LTMPT yaitu PDSS. PDSS merupakan basis data yang berisikan rekam jejak kinerja sekolah dan nilai rapor mahasiswa. PDSS mengakomodasi kurikulum nasional 2006 KTSP dan kurikulum 2013. Sekolah yang tidak menggunakan kurikulum nasional tidak diperbolehkan mendaftar PDSS."
+    },
+    {
+      "id" : 9,
+      "images": "berita-9.jpg",
+      "link": "https://itk.ac.id/sosialisasi-dan-roadshow-program-ekonomi-kreatif-sub-sektor-aplikasi-dan-games/",
+      "title" : "SOSIALISASI DAN ROADSHOW PROGRAM EKONOMI KREATIF SUB SEKTOR APLIKASI DAN GAMES",
+      "berita" : "Balikpapan – Bertempat di Auditorium Insititut Teknologi Kalimantan pada Rabu, 27 November 2019 telah dilaksanakan Sosialisasi dan Roadshow Program Ekonomi Kreatif Sub Sektor Aplikasi dan Games yang dihadiri langsung oleh istri dari Walikota Balikpapan Ibu Arita Rizal Effendi. Dalam sambutan pembukaannya Arita menyampaikan kebahagiaannya untuk kali pertama hadir di kampus Bumi Etam. Acara yang bertemakan “Balikpapan Sustainable Innovation” ini juga memaparkan sinergitas antara Akademisi sebagai pendorong penciptaan SDM Kreatif, Pebisnis sebagai penggerak pengembang industri, Komunitas sebagai wadah berbagi pengetahuan, pengembangan jejaring Kreatif, pemerintah sebagai regulator, fasilitator, dan investor, serta media sebagai sarana informasi, komunikasi, aksi pengembangan Ekonomi Kreatif (Kaltim Post, Tribun Kaltim, BPN TV, Smart Fm, Onix Radio, Medsos Pemerintah Kota Balikpapan,dll)."
+    },
+    {
+      "id" : 10,
+      "images": "berita-10.jpg",
+      "link": "https://itk.ac.id/pelatihan-pembuatan-media-pembelajaran-audio-visual-di-sman-9-balikpapan/",
+      "title" : "PELATIHAN PEMBUATAN MEDIA PEMBELAJARAN AUDIO VISUAL DI SMAN 9 BALIKPAPAN",
+      "berita" : "Perkembangan teknologi saat ini sangat berkembang dengan pesat. Salah satu sektor yang berimpact pada perkembangan teknologi adalah proses belajar mengajar pada sekolah – sekolah. Saat ini ada sangat banyak metode pembelajaran yang terus berkembang pada proses belajar mengajar, salah satunya adalah audio visusal. Audio visual adalah salah satu metode pembelajaran yang cukup komunikatif untuk siswa, karena dapat belajar dengan melihat secara langsung apa yang sedang mereka pelajari. Melihat hal ini maka sangat penting untuk guru maupun siswa untuk dapat membuat audio visual dari awal sampai dengan menjadi video yang dapat disajikan."
     }
   ]
 }
