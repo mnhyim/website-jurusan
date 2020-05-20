@@ -21,10 +21,9 @@ export default {
 
 <style scoped>
 .carousel-item {
-  height: 450px !important;
+  height: 500px !important;
 }
 .carousel-item img {
-  height: 700px;
-  object-fit: cover;
+  height: 850px;
 }
 </style>
