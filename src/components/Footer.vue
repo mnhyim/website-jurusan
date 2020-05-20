@@ -6,17 +6,17 @@
           <h2 class="title is-4 has-text-white has-bottom-border">Sosial Media</h2>
           <ul>
             <li>
-              <a href="https://www.facebook.com/ITKalimantan/" class="has-text-white">
+              <a href="https://www.facebook.com/ITKalimantan/" class="has-text-white" target="_blank">
                 <b-icon pack="fab" icon="facebook" size="is-small"/>Facebook
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/itk_official_" class="has-text-white">
+              <a href="https://twitter.com/itk_official_" class="has-text-white" target="_blank">
                 <b-icon pack="fab" icon="twitter" size="is-small"/>Twitter
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/itk_official/" class="has-text-white">
+              <a href="https://www.instagram.com/itk_official/" class="has-text-white" target="_blank">
                 <b-icon pack="fab" icon="instagram" size="is-small"/>Instagram
               </a>
             </li>
@@ -26,17 +26,17 @@
           <h2 class="title is-4 has-text-white has-bottom-border">Layanan</h2>
           <ul>
             <li>
-              <a href="http://sikantan.itk.ac.id/" class="has-text-white">
+              <a href="http://sikantan.itk.ac.id/" class="has-text-white" target="_blank">
                 <b-icon pack= "fas" icon="link" size="is-small"/>SIKANTAN
               </a>
             </li>
             <li>
-              <a href="http://mail.itk.ac.id/" class="has-text-white">
+              <a href="http://mail.itk.ac.id/" class="has-text-white" target="_blank">
                 <b-icon pack= "fas" icon="link" size="is-small"/>ITK Webmail
               </a>
             </li>
             <li>
-              <a href="http://pmb.itk.ac.id/" class="has-text-white">
+              <a href="http://pmb.itk.ac.id/" class="has-text-white" target="_blank">
                 <b-icon pack= "fas" icon="link" size="is-small"/>Penerimaan Mahasiswa Baru
               </a>
             </li>

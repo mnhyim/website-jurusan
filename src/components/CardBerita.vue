@@ -10,7 +10,7 @@
       <p>{{beritabs.berita}}</p>
     </div>
     <footer class="card-footer">
-      <a v-bind:href="beritabs.link" class="card-footer-item">Baca lebih lengkap</a>
+      <a v-bind:href="beritabs.link" class="card-footer-item" target="_blank">Baca lebih lengkap</a>
     </footer>
   </div>
 </template>

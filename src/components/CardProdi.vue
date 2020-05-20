@@ -7,12 +7,12 @@
     <footer class="card-footer">
       <p class="card-footer-item">
         <span>
-          Lihat <a v-bind:href="prodi.link.website">Website Prodi</a>
+          Lihat <a v-bind:href="prodi.link.website" target="_blank">Website Prodi</a>
         </span>
       </p>
       <p class="card-footer-item">
         <span>
-          Lihat <a v-bind:href="prodi.link.instagram">Instagram Prodi</a>
+          Lihat <a v-bind:href="prodi.link.instagram" target="_blank">Instagram Prodi</a>
         </span>
       </p>
     </footer>
