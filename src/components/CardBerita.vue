@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <header class="card-header has-background-jmti">
+    <header class="card-header has-background-primary">
       <p class="card-header-title has-text-white">{{beritabs.title}}</p>
     </header>
     <div class="card-content">
@@ -39,6 +39,6 @@ export default {
     margin-bottom: 14px;
   }
   .gmbr img{
-    border: 4px solid rgba(0, 93, 175, 0.24);
+    border: 4px solid #222222bd;
   }
 </style>

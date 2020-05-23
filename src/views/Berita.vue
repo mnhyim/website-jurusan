@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style scoped>
-.crsl{
-  border-bottom: 8px solid #272944;
-}
+/* .crsl{
+  border-bottom: 16px solid #2c2c2c;
+} */
 </style>
