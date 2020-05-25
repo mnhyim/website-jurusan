@@ -52,9 +52,16 @@ export default {
     }    
     .column:first-of-type{
       padding: 0;
-      background-color: #232e41;
-      border-right: 16px solid #223657;
+      background-color: #141a25;
+      border-right: 16px solid #1d2d47;
     }
-
+  }
+  @media screen and (max-device-width: 1024px) {
+    .columns{
+      height: unset;
+      .column.is-4{
+        padding: 22px 52px 52px 52px;
+      }
+    }
   }
 </style>
