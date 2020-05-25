@@ -22,8 +22,12 @@ export default {
 }
 </script>
 <style scoped>
+  .card{
+    border-radius: 4px;
+  }
   .card-header{
     height:125px !important;
+    border-radius: 4px 4px 0 0;
   }
   .card-header-title{
     display: block;
