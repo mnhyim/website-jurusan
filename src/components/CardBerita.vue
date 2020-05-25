@@ -42,7 +42,7 @@ export default {
   .card-content figure{
     margin-bottom: 14px;
   }
-  .gmbr img{
-    border: 4px solid #222222bd;
-  }
+  /* .gmbr img{
+    border: 4px solid #324a70ec;
+  } */
 </style>
