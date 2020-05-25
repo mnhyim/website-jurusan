@@ -97,7 +97,7 @@
         </div> -->
       </div>
     </footer>
-    <p class="footer-text has-text-white has-background-dark is-size-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias illo possimus ipsum expedita rem numquam dolorem, veritatis earum velit aspernatur consectetur voluptates nostrum perferendis rerum repellat provident facilis labore!</p>
+    <p class="footer-text has-text-white has-background-dark is-size-7">Copyright &copy; 2020 Kelompok 1. All rights reserved.</p>
   </div>
 </template>
 

@@ -14,7 +14,7 @@
             <img v-bind:src="require(`@/assets/berita/${berita[item].images}`)"/>
           </div>
           <div class="column is-4">
-            <h1 class="title has-text-white is-size-4">{{berita[item].title}}</h1>
+            <h1 class="title has-text-white is-size-5">{{berita[item].title}}</h1>
             <b-button type="is-primary" icon-left="book" inverted>
               <a v-bind:href="berita[item].link" target="_blank">Baca selengkapnya</a>
             </b-button>
