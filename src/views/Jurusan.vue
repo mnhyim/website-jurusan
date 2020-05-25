@@ -11,7 +11,7 @@
           <img v-bind:src="require(`@/assets/${data.jurusan[id].image}`)">
         </div>
         <div class="column is-7">
-          <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1>
+          <!-- <h1 class="title is-4">Jadwal kegiatan {{data.jurusan[id].abbr}}</h1> -->
           <tb-event v-bind:jadwal="data.jurusan[id].jadwal" v-bind:x="data.jurusan[id].classBg"/>
         </div>
       </div>
