@@ -3,7 +3,12 @@ Single Page Applications yang berisi informasi mengenai jurusan-jurusan yang ada
 ***
 Demo : https://website-jurusan-itk.netlify.app/
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6e715a3a-d6b8-47a0-ad6f-cf990bde7c7f/deploy-status)](https://app.netlify.com/sites/website-jurusan-itk/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e715a3a-d6b8-47a0-ad6f-cf990bde7c7f/deploy-status)](https://app.netlify.com/sites/website-jurusan-itk/deploys) 
+![Commit Activity](https://img.shields.io/github/commit-activity/m/mnhyim/website-jurusan) 
+![Last Commit](https://img.shields.io/github/last-commit/mnhyim/website-jurusan) 
+![Contributors](https://img.shields.io/github/contributors/mnhyim/website-jurusan)
+
+
 ## Anggota
 1. Aishiela Ayu Permatasari - 11181006
 2. Erza Fahmi Fasya - 11181024
