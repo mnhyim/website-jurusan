@@ -21,6 +21,21 @@
               </a>
             </li>
           </ul>
+          <h2 class="title is-5 has-text-white kontak-title">Kontak</h2>
+          <ul class="is-size-7">
+            <li>
+              <b-icon pack= "fas" icon="map" size="is-small"/>Jl. Soekarno-Hatta Km. 15, Karang Joang, Balikpapan, Kalimantan Timur, 76127
+            </li>
+            <li>
+              <b-icon pack= "fas" icon="phone" size="is-small"/>0542-8530801
+            </li>
+            <li>
+              <b-icon pack= "fas" icon="phone" size="is-small"/>0542-8530800
+            </li>
+            <li>
+              <b-icon pack= "fas" icon="envelope" size="is-small"/>humas@itk.ac.id
+            </li>
+          </ul>
         </div>
         <div class="column is-4">
           <h2 class="title is-5 has-text-white has-bottom-border">Layanan</h2>
@@ -39,21 +54,6 @@
               <a href="http://pmb.itk.ac.id/" class="has-text-white" target="_blank">
                 <b-icon pack= "fas" icon="link" size="is-small"/>Penerimaan Mahasiswa Baru
               </a>
-            </li>
-          </ul>
-          <h2 class="title is-5 has-text-white kontak-title">Kontak</h2>
-          <ul class="is-size-7">
-            <li>
-              <b-icon pack= "fas" icon="map" size="is-small"/>Jl. Soekarno-Hatta Km. 15, Karang Joang, Balikpapan, Kalimantan Timur, 76127
-            </li>
-            <li>
-              <b-icon pack= "fas" icon="phone" size="is-small"/>0542-8530801
-            </li>
-            <li>
-              <b-icon pack= "fas" icon="phone" size="is-small"/>0542-8530800
-            </li>
-            <li>
-              <b-icon pack= "fas" icon="envelope" size="is-small"/>humas@itk.ac.id
             </li>
           </ul>
         </div>
