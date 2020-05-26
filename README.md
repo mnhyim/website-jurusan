@@ -10,8 +10,8 @@ Demo : https://website-jurusan-itk.netlify.app/
 
 
 ## Anggota
-1. Aishiela Ayu Permatasari - 11181006
-2. Erza Fahmi Fasya - 11181024
-3. Jimmy Kartika Chandra - 11181039
-4. Muhamad Nur Hasyim - 11181050
-5. Muhammad Haeqal Dwi Putra - 11181052
+* Aishiela Ayu Permatasari - 11181006
+* Erza Fahmi Fasya - 11181024
+* Jimmy Kartika Chandra - 11181039
+* Muhamad Nur Hasyim - 11181050
+* Muhammad Haeqal Dwi Putra - 11181052
