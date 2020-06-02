@@ -1,4 +1,4 @@
-# Website Jurusan ITK
+# Website Jurusan ITK [LEGACY]
 Website jurusan ITK dengan menggunakan framework Bulma,
 ini folder projek ketika belum menggunakan Vue.Js
 ## Anggota
